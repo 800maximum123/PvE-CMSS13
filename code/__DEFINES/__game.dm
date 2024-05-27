@@ -42,9 +42,12 @@ block( \
 #define MAP_RUNTIME "USS Runtime"
 #define MAP_LV522_CHANCES_CLAIM "LV-522 Chance's Claim" // Highpop Only
 #define MAP_NEW_VARADERO "New Varadero"//ice colony underground but as its own map
+#define MAP_NEW_VARADERO_REPAIRED "New Varadero Repaired"
 #define MAP_CHINOOK "Chinook 91 GSO" //admin level
 #define MAP_DERELICT_ALMAYER "Derelict Almayer"
 
+#define MAP_LV759_HYBRISA "LV-759 Hybrisa"
+#define MAP_LV671_ARK "LV-671 Ark Borealis"
 #define MAP_DESERT_DAM_RU "Trijent Dam RU"
 #define MAP_WHISKEY_OUTPOST_RU "Outpost Tango"
 #define MAP_DERELICT_ALMAYER_RU "Derelict Almayer RU"
