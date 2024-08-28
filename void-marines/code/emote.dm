@@ -120,9 +120,9 @@
 	user.langchat_speech(pain_message, group, GLOB.all_languages, skip_language_check = TRUE, animation_style = LANGCHAT_FAST_POP, additional_styles = list("langchat_yell"))
 
 /datum/emote/living/carbon/human/salute
-	key_third_person = "отдаёт честь"
-	message = "отдаёт честь."
-	message_param = "отдаёт честь %t."
+	key_third_person = "исполняет воинское приветствие."
+	message = "исполняет воинское приветствие."
+	message_param = "исполняет воинское приветствие %t."
 
 /datum/emote/living/carbon/human/scream
 	key_third_person = "кричит"
