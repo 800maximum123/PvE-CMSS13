@@ -250,6 +250,7 @@
 	icon_state = "wall1"
 	icon = 'icons/turf/shuttle.dmi'
 	layer = ABOVE_TURF_LAYER
+	unacidable = TRUE
 
 /turf/closed/shuttle/is_weedable()
 	return FULLY_WEEDABLE
