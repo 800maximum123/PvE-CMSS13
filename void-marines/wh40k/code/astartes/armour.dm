@@ -11,7 +11,7 @@
 	fire_intensity_resistance = BURN_LEVEL_TIER_1
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROT
 	desc = "The Holy armour of the Emperor's chosen, This one bears the symbol of his position, Tactical Marine of the XIIIth Chapter, Ultramarines."
-	allowed = list(/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/cell, /obj/item/weapon/gun, /obj/item/storage/backpack/general_belt)// ,/obj/item/gun/energy/las/lasgun)
+	allowed = list(/obj/item/ammo_magazine, /obj/item/cell, /obj/item/weapon/gun, /obj/item/storage/backpack/general_belt)// ,/obj/item/gun/energy/las/lasgun)
 	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_GROIN|BODY_FLAG_LEGS|BODY_FLAG_ARMS|BODY_FLAG_HANDS
 	flags_inv_hide = HIDEJUMPSUIT|HIDEGLOVES
 // 	species_restricted = list(SPECIES_ASTARTES)

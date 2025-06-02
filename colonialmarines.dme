@@ -2663,7 +2663,6 @@
 #include "void-marines\code\human_hair.dm"
 #include "void-marines\code\jetpack.dm"
 #include "void-marines\code\layer_shifting.dm"
-#include "void-marines\code\light_change.dm"
 #include "void-marines\code\mech_base.dm"
 #include "void-marines\code\mech_loadouts.dm"
 #include "void-marines\code\mech_specials.dm"

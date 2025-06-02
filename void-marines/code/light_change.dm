@@ -22,3 +22,6 @@
 				lightturfs -= A
 	for(var/turf/T as anything in lightturfs)
 		T.set_light(1, light_str, l_color = daytime_color)
+
+
+// disabled by maximum, due to merge
