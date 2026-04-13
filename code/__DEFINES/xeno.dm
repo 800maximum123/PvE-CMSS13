@@ -699,6 +699,8 @@
 #define XENO_CASTE_CRUSHER    "Crusher"
 #define XENO_CASTE_RAVAGER    "Ravager"
 #define XENO_T3_CASTES    list(XENO_CASTE_BOILER, XENO_CASTE_PRAETORIAN, XENO_CASTE_CRUSHER, XENO_CASTE_RAVAGER)
+//arachnid
+#define ARACHNID_CASTE_WARRIOR "Arachnid"
 //special
 #define XENO_CASTE_KING "King"
 #define XENO_CASTE_QUEEN  "Queen"

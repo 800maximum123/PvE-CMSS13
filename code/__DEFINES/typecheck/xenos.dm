@@ -24,6 +24,8 @@
 #define iswarrior(A) (istype(A, /mob/living/carbon/xenomorph/warrior))
 #define isburrower(A) (istype(A, /mob/living/carbon/xenomorph/burrower))
 
+#define isarachnid(A) (istype(A, /mob/living/carbon/xenomorph/arachnid))
+
 #define isxeno_builder(A) (isdrone(A) || ishivelord(A) || iscarrier(A) || isburrower(A) || isqueen(A))
 
 /// Returns true/false based on if the xenomorph can harm the passed carbon mob.

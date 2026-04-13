@@ -11,6 +11,9 @@
 /proc/robogibs(atom/location, list/viruses)
 	new /obj/effect/spawner/gibspawner/robot(get_turf(location),viruses)
 
+/proc/agibs(atom/location, list/viruses)
+	new /obj/effect/spawner/gibspawner/arachnid(get_turf(location),viruses)
+
 /obj/effect/spawner/gibspawner
 	var/sparks = 0 //whether sparks spread on Gib()
 	var/virusProb = 20 //the chance for viruses to spread on the gibs
@@ -118,4 +121,12 @@
 /obj/effect/spawner/gibspawner/robot/Initialize(mapload, list/viruses, mob/living/ml, fleshcolor, bloodcolor)
 	gibdirections = list(list(NORTH, NORTHEAST, NORTHWEST),list(SOUTH, SOUTHEAST, SOUTHWEST),list(WEST, NORTHWEST, SOUTHWEST),list(EAST, NORTHEAST, SOUTHEAST), GLOB.alldirs, GLOB.alldirs)
 	gibamounts[6] = pick(0,1,2)
+	. = ..()
+
+/obj/effect/spawner/gibspawner/arachnid
+	gibtypes = list(/obj/effect/decal/cleanable/blood/gibs/arachnid, /obj/effect/decal/cleanable/blood/gibs/arachnid/limb, /obj/effect/decal/cleanable/blood/gibs/arachnid/body, /obj/effect/decal/cleanable/blood/gibs/arachnid/splat, /obj/effect/decal/cleanable/blood/gibs/arachnid/mess)
+	gibamounts = list(1,1,1,2,1)
+
+/obj/effect/spawner/gibspawner/arachnid/Initialize(mapload, list/viruses, mob/living/ml, fleshcolor, bloodcolor)
+	gibdirections = list(GLOB.alldirs, GLOB.alldirs, list(), list(), list())
 	. = ..()

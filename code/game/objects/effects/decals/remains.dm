@@ -27,6 +27,9 @@
 	icon = 'icons/mob/robots.dmi'
 	icon_state = "remainsrobot"
 
+/obj/effect/decal/remains/arachnid
+	desc = "They look like the remains of some horrible creature. They are not pleasant to look at..."
+	icon_state = "remainsxeno"
 
 /*
 Doesn't do anything or hold anything anymore.

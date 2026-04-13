@@ -109,6 +109,10 @@
 	splatter_type = "csplatter"
 	color = BLOOD_COLOR_SYNTHETIC
 
+/obj/effect/temp_visual/dir_setting/bloodsplatter/arachnidsplatter
+	splatter_type = "csplatter"
+	color = BLOOD_COLOR_ARACHNID
+
 //------------------------------------------
 //Shockwaves
 //------------------------------------------

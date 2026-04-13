@@ -1,7 +1,7 @@
 #define DELETE_TIME 1800
 
-/mob/living/carbon/xenomorph/death(cause, gibbed)
-	var/msg = "lets out a waning guttural screech, green blood bubbling from its maw."
+/mob/living/carbon/xenomorph/death(cause, gibbed, deathmessage)
+	var/msg = deathmessage ? deathmessage : "lets out a waning guttural screech, green blood bubbling from its maw."
 	. = ..(cause, gibbed, msg)
 	if(!.)
 		return //If they're already dead, it will return.
@@ -79,6 +79,8 @@
 			playsound(loc,'sound/voice/predalien_death.ogg', 25, TRUE)
 		else if(isfacehugger(src))
 			playsound(loc, 'sound/voice/alien_facehugger_dies.ogg', 25, TRUE)
+		else if(isarachnid(src))
+			playsound(loc, prob(50) ? 'sound/voice/arachnid_dies.ogg' : null, 25, TRUE)
 		else
 			playsound(loc, prob(50) == 1 ? 'sound/voice/alien_death.ogg' : 'sound/voice/alien_death2.ogg', 25, 1)
 		var/area/A = get_area(src)
@@ -142,6 +144,8 @@
 			src_boiler.smoke.start()
 		if(XENO_CASTE_LARVA, XENO_CASTE_PREDALIEN_LARVA)
 			icon_path = 'icons/mob/xenos/larva.dmi'
+		if(ARACHNID_CASTE_WARRIOR)
+			icon_path = 'icons/mob/arachnid/arachnid.dmi'
 
 	remains.icon_state = gib_state
 	remains.icon = icon_path
@@ -166,10 +170,15 @@
 		if(XENO_CASTE_LARVA, XENO_CASTE_PREDALIEN_LARVA)
 			icon_path = 'icons/mob/xenos/larva.dmi'
 			to_flick = "larva_gib"
+		if(ARACHNID_CASTE_WARRIOR)
+			icon_path = 'icons/mob/arachnid/arachnid.dmi'
 	new /obj/effect/overlay/temp/gib_animation/xeno(loc, src, to_flick, icon_path)
 
 /mob/living/carbon/xenomorph/spawn_gibs()
-	xgibs(get_turf(src))
+	if(isarachnid(src))
+		agibs(get_turf(src))
+	else
+		xgibs(get_turf(src))
 
 /mob/living/carbon/xenomorph/dust_animation()
 	new /obj/effect/overlay/temp/dust_animation(loc, src, "dust-a")
