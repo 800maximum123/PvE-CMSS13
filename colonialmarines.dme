@@ -2804,6 +2804,7 @@
 #include "modular_pve_halo\code\modules\clothing\masks\gasmask.dm"
 #include "modular_pve_halo\code\modules\clothing\suits\marine_coat.dm"
 #include "modular_pve_halo\code\modules\economy\ATM.dm"
+#include "something\code\_admin_music.dm"
 #include "something\code\chair_shifting.dm"
 #include "something\code\dice.dm"
 #include "something\code\layer_shifting.dm"
