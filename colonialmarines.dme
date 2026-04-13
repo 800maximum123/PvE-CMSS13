@@ -1147,6 +1147,7 @@
 #include "code\game\objects\effects\decals\cleanable\cleanable.dm"
 #include "code\game\objects\effects\decals\cleanable\fuel.dm"
 #include "code\game\objects\effects\decals\cleanable\misc.dm"
+#include "code\game\objects\effects\decals\cleanable\blood\arachnid.dm"
 #include "code\game\objects\effects\decals\cleanable\blood\blood.dm"
 #include "code\game\objects\effects\decals\cleanable\blood\robots.dm"
 #include "code\game\objects\effects\decals\cleanable\blood\tracks.dm"
