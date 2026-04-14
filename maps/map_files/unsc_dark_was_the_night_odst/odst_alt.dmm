@@ -5,6 +5,22 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/canteen)
+"an" = (
+/obj/structure/machinery/door/airlock/unsc/prop,
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/pod_bay)
+"aw" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/briefing)
 "aK" = (
 /obj/structure/bookcase{
 	icon_state = "book-5";
@@ -18,8 +34,28 @@
 	pixel_x = 4;
 	pixel_y = 2
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/strata/floor2,
 /area/dark_was_the_night/dorms)
+"aP" = (
+/obj/structure/machinery/door_control/brbutton{
+	pixel_x = 0;
+	pixel_y = 24;
+	id = "unsc_armory_spec";
+	name = "Storage Shutters"
+	},
+/obj/structure/prop/unsc_crate/stack{
+	pixel_x = 0;
+	pixel_y = 3
+	},
+/obj/item/clothing/head/helmet/marine/unsc/pilot{
+	pixel_x = 4;
+	pixel_y = 10
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
 "br" = (
 /obj/structure/machinery/vending/cola{
 	pixel_x = -6;
@@ -51,20 +87,90 @@
 /obj/structure/surface/table/reinforced/prison{
 	color = "#ffe6e6"
 	},
+/obj/structure/phone_base{
+	phone_category = "UNSC Ship";
+	pixel_x = -5;
+	pixel_y = 30;
+	phone_id = "Dormitories";
+	name = "Dormitories"
+	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/dorms)
+"bG" = (
+/obj/structure/machinery/door/airlock/unsc/glass{
+	req_one_access = list(13,39,40);
+	name = "\improper Weapons Specialist Room"
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/armory)
+"bH" = (
+/obj/structure/cable/heavyduty/west_east,
+/obj/structure/machinery/light/small{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/engineering)
 "bI" = (
 /obj/structure/prop/unsc_crate/stack{
 	pixel_y = 15;
 	density = 0
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/dorms)
-"cg" = (
-/turf/open/floor/almayer/aicore{
-	icon_state = "w_ai_plates"
+"bP" = (
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"bW" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/phone_base{
+	phone_category = "UNSC Ship";
+	pixel_x = 19;
+	pixel_y = 3;
+	phone_id = "Squad Leader";
+	dir = 8;
+	name = "Squad Leader"
 	},
-/area/space)
+/obj/structure/machinery/door_control/brbutton{
+	pixel_x = 0;
+	pixel_y = 24;
+	id = "unsc_armory";
+	name = "Armory Shutters"
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/briefing)
+"bY" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/effect/landmark/personal_weapon,
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"bZ" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/machinery/firealarm{
+	pixel_y = 23;
+	pixel_x = 0
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/cryo_hall)
+"cj" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/white_cyan2,
+/area/dark_was_the_night/medical)
 "ck" = (
 /obj/structure/closet/secure_closet/fridge/meat/stock{
 	pixel_x = -7;
@@ -76,6 +182,38 @@
 	},
 /turf/open/floor/freezerfloor,
 /area/dark_was_the_night/canteen)
+"cl" = (
+/obj/structure/prop/unsc_crate/big{
+	pixel_x = 19;
+	pixel_y = 2
+	},
+/obj/structure/prop/unsc_crate/stack{
+	pixel_x = 24;
+	pixel_y = 37
+	},
+/obj/structure/bed/chair/comfy/bench/south/west{
+	color = "#ffe6e6";
+	pixel_x = -7;
+	pixel_y = 3
+	},
+/obj/item/ammo_magazine/shotgun/beanbag/unsc{
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"cr" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/canteen)
+"cy" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/white_cyan3/south,
+/area/dark_was_the_night/medical)
 "cJ" = (
 /obj/structure/closet/secure_closet/engineering_electrical{
 	req_one_access = null
@@ -83,6 +221,28 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/strata/floor2,
 /area/dark_was_the_night/engineering)
+"cQ" = (
+/obj/structure/prop/unsc_crate/stack,
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
+"cS" = (
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/obj/structure/machinery/light/double{
+	dir = 1;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/shuttle/escapepod/north,
+/area/dark_was_the_night/armory)
 "cT" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "door_warning";
@@ -92,8 +252,77 @@
 	pixel_x = -1
 	},
 /obj/structure/machinery/power/apc/almayer/west,
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/canteen)
+"da" = (
+/obj/structure/bed/chair/comfy/bench/north/west{
+	color = "#ffe6e6";
+	pixel_x = 0;
+	pixel_y = 3
+	},
+/obj/item/prop/magazine/dirty/torn{
+	pixel_x = 2;
+	pixel_y = 4
+	},
+/turf/open/floor/strata/floor2,
+/area/dark_was_the_night/cryo_bay)
+"de" = (
+/obj/structure/platform_decoration/strata/metal{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 6
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/briefing)
+"dj" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 2
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 2
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/cryo_hall)
+"dl" = (
+/obj/structure/machinery/photocopier,
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/dorms)
+"dq" = (
+/obj/item/ammo_magazine/rifle/halo/ma5c,
+/turf/open/space/basic,
+/area/space)
+"du" = (
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/armory)
+"dv" = (
+/obj/structure/machinery/light/double{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/pod_bay)
+"dx" = (
+/obj/structure/window/framed/unsc,
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/dark_was_the_night/briefing)
 "dA" = (
 /obj/structure/window/framed/unsc,
 /obj/structure/machinery/door/poddoor/almayer/locked{
@@ -102,18 +331,100 @@
 	},
 /turf/open/floor/corsat,
 /area/dark_was_the_night/engineering)
+"dB" = (
+/obj/structure/closet/secure_closet/halo/job_locker/fireteam_leader/ft1,
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo";
+	pixel_x = 1
+	},
+/obj/item/device/binoculars/range/monocular,
+/obj/item/storage/pouch/tools/tactical/full,
+/obj/item/weapon/gun/rifle/halo/br55,
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"dF" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_hall)
+"dJ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning";
+	pixel_y = 0;
+	dir = 8;
+	pixel_x = -2
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"dL" = (
+/obj/structure/halo_droppod/start_open,
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo";
+	pixel_x = 1
+	},
+/turf/open/floor/almayer_hull,
+/area/dark_was_the_night/pod_bay)
 "dM" = (
 /obj/structure/machinery/door/airlock/unsc{
 	autoname = 1
 	},
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/canteen)
+"dO" = (
+/turf/open/floor/strata/white_cyan3/east,
+/area/dark_was_the_night/medical)
+"dW" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 1
+	},
+/obj/structure/surface/table/reinforced/prison{
+	color = "#ffe6e6"
+	},
+/obj/item/paper_bin{
+	pixel_y = 8;
+	pixel_x = 5
+	},
+/obj/item/tool/pen{
+	pixel_x = -10;
+	pixel_y = 5
+	},
+/obj/item/ashtray/plastic{
+	icon_state = "ashtray_full_bl";
+	pixel_x = -8;
+	pixel_y = -3
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/dorms)
+"ei" = (
+/obj/structure/machinery/chem_master,
+/obj/item/reagent_container/glass/beaker/bluespace{
+	pixel_x = 3;
+	pixel_y = 12
+	},
+/turf/open/floor/strata/purp1,
+/area/dark_was_the_night/medical)
 "en" = (
 /obj/structure/machinery/light/small/red{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/freezerfloor,
 /area/dark_was_the_night/canteen)
+"eo" = (
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
 "ep" = (
 /turf/open/floor/strata/multi_tiles,
 /area/dark_was_the_night/cryo_bay)
@@ -144,21 +455,67 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
+"ev" = (
+/obj/structure/pipes/standard/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/canteen)
 "eA" = (
 /turf/closed/wall/unsc,
 /area/dark_was_the_night/engineering)
 "eC" = (
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/dark_was_the_night/canteen)
-"eY" = (
-/obj/structure/machinery/light/double{
-	dir = 2;
+/turf/open/floor/almayer_hull/outerhull_dir/east,
+/area/dark_was_the_night/pod_bay)
+"eH" = (
+/obj/item/ammo_magazine/rifle/halo/br55/extended,
+/turf/open/space/basic,
+/area/space)
+"eJ" = (
+/obj/structure/machinery/light/small{
+	dir = 4;
 	light_color = "#e7c0a4";
 	light_power = 0.8;
-	light_range = 5
+	light_range = 4
 	},
-/turf/open/floor/strata/multi_tiles,
-/area/dark_was_the_night/cryo_bay)
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/dark_was_the_night/dorms)
+"eK" = (
+/obj/item/ammo_box/magazine/unsc/ma5b/shredder,
+/turf/open/space/basic,
+/area/space)
+"eO" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/ashtray/plastic{
+	icon_state = "ashtray_full_bl";
+	pixel_x = -5;
+	pixel_y = -4
+	},
+/obj/structure/blocker/invisible_wall/directional,
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
+"eT" = (
+/obj/item/ammo_box/magazine/unsc/ma5c,
+/turf/open/space/basic,
+/area/space)
+"eY" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/pod_bay)
+"fh" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
 "fp" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/item/reagent_container/food/condiment/enzyme{
@@ -173,13 +530,29 @@
 	pixel_x = 10;
 	pixel_y = 7
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/strata/white_cyan1,
 /area/dark_was_the_night/canteen)
 "fq" = (
-/obj/structure/cable/heavyduty/north_south,
-/turf/open/floor/corsat,
-/area/dark_was_the_night/cryo_bay)
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/pod_bay)
+"ft" = (
+/obj/structure/machinery/door/airlock/unsc/glass{
+	dir = 1;
+	req_access = list(12);
+	name = "\improper Squad Leader Room"
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/armory)
 "fu" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/dark_was_the_night/engineering)
 "fw" = (
@@ -189,8 +562,23 @@
 	light_power = 0.8;
 	light_range = 5
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/dorms)
+"fy" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1;
+	pixel_y = 0
+	},
+/obj/effect/step_trigger/clone_cleaner,
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/cryo_hall)
 "fz" = (
 /obj/structure/platform/strata/metal{
 	dir = 8
@@ -200,10 +588,39 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/corsat,
 /area/dark_was_the_night/canteen)
+"fC" = (
+/obj/structure/machinery/light/small/red,
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
+	},
+/obj/structure/prop/unsc_crate/big{
+	pixel_x = 1;
+	pixel_y = -1
+	},
+/obj/structure/prop/unsc_crate/standard/medical{
+	pixel_x = 27;
+	pixel_y = -13
+	},
+/obj/structure/bed/bedroll{
+	pixel_x = 6;
+	pixel_y = 32
+	},
+/obj/item/toy/deck/uno{
+	pixel_x = 5;
+	pixel_y = 35
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/armory)
+"fD" = (
+/obj/structure/machinery/prop/almayer/CICmap/table/segment/five{
+	pixel_x = 16;
+	density = 0
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
 "fE" = (
-/obj/structure/grille/almayer,
-/obj/structure/cable/heavyduty/west_east,
-/turf/open/floor/corsat,
+/turf/open/shuttle/escapepod/east,
 /area/dark_was_the_night/cryo_bay)
 "fF" = (
 /turf/open/space/basic,
@@ -251,23 +668,57 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/upper_hallway)
+"gd" = (
+/obj/structure/machinery/prop/almayer/CICmap/table/segment/six{
+	pixel_x = -16;
+	density = 0
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
 "gm" = (
 /turf/open/floor/strata/multi_tiles/west,
 /area/dark_was_the_night/upper_hallway)
 "gz" = (
-/obj/structure/cable/heavyduty/east_south,
-/turf/open/floor/corsat,
-/area/dark_was_the_night/cryo_bay)
+/turf/closed/wall/unsc/reinforced/hull,
+/area/dark_was_the_night/pod_bay)
 "gD" = (
-/obj/structure/cable/heavyduty/east_south,
 /obj/structure/machinery/light/small/red{
 	dir = 1
 	},
-/turf/open/floor/corsat,
+/obj/structure/platform_decoration/strata/metal{
+	dir = 1
+	},
+/turf/open/shuttle/escapepod/floor2,
 /area/dark_was_the_night/cryo_bay)
+"gE" = (
+/obj/structure/gun_rack/halo/medkit{
+	dir = 4;
+	pixel_x = -17;
+	pixel_y = 2
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/briefing)
+"gH" = (
+/obj/structure/machinery/light/double{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/almayer_hull/outerhull_dir/north,
+/area/dark_was_the_night/pod_bay)
+"gM" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/canteen)
 "hb" = (
 /turf/open/floor/almayer/dark_sterile,
 /area/dark_was_the_night/dorms)
+"he" = (
+/turf/closed/wall/unsc/reinforced/hull,
+/area/dark_was_the_night/medical)
 "hi" = (
 /obj/structure/machinery/light/small{
 	light_color = "#C02526";
@@ -280,10 +731,45 @@
 	dir = 1
 	},
 /area/dark_was_the_night/engineering)
+"hm" = (
+/obj/structure/prop/unsc_crate/corrugated/blue{
+	pixel_x = 4;
+	pixel_y = 10
+	},
+/obj/item/storage/syringe_case/unsc/morphine/full{
+	pixel_x = 6;
+	pixel_y = 17
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/cryo_bay)
 "hq" = (
 /obj/structure/machinery/door/airlock/unsc/prop,
-/turf/open/floor/almayer/pod_landing_floor,
+/turf/open/floor/corsat/marked,
 /area/dark_was_the_night/upper_hallway)
+"hr" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 1;
+	pixel_x = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	layer = 2.5;
+	pixel_y = 1
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/briefing)
+"ht" = (
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_x = 27
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/briefing)
 "hu" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "door_warning";
@@ -308,6 +794,17 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
+"hz" = (
+/obj/structure/stairs{
+	dir = 4
+	},
+/obj/effect/step_trigger/teleporter_vector{
+	vector_x = -13;
+	vector_y = 39;
+	name = "to_brif"
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/upper_hallway)
 "hC" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -351,33 +848,39 @@
 	},
 /turf/open/floor/strata/floor2,
 /area/dark_was_the_night/dorms)
+"hO" = (
+/obj/structure/machinery/door/airlock/unsc/prop,
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
+"hQ" = (
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 1
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/canteen)
+"hS" = (
+/obj/structure/flora/pottedplant/random{
+	pixel_x = 1;
+	pixel_y = 3
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
 "hW" = (
-/obj/structure/cable/heavyduty/west_south,
 /obj/structure/machinery/light/small/red{
 	dir = 1
 	},
-/turf/open/floor/corsat,
+/obj/structure/platform_decoration/strata/metal,
+/turf/open/shuttle/escapepod/floor0,
 /area/dark_was_the_night/cryo_bay)
 "hY" = (
-/obj/structure/bed,
-/obj/item/bedsheet/brown,
-/obj/structure/bed{
-	layer = 4.1;
-	pixel_y = 12
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 5
 	},
-/obj/item/bedsheet/brown{
-	layer = 4.2;
-	pixel_y = 12
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 5
 	},
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	pixel_x = -2
-	},
-/turf/open/floor/strata/floor3,
-/area/space)
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/armory)
 "iq" = (
 /obj/structure/machinery/light/double{
 	dir = 1;
@@ -388,6 +891,31 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/dark_was_the_night/cryo_bay)
+"is" = (
+/turf/open/floor/strata/multi_tiles,
+/area/dark_was_the_night/briefing)
+"it" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#ffe6e6"
+	},
+/obj/item/reagent_container/food/drinks/coffeecup{
+	pixel_x = 1;
+	pixel_y = 8
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/canteen)
+"ix" = (
+/obj/structure/bed/chair/comfy/bench/north/west{
+	color = "#ffe6e6";
+	pixel_x = 0;
+	pixel_y = 3
+	},
+/obj/item/newspaper{
+	pixel_x = -1;
+	pixel_y = 3
+	},
+/turf/open/floor/strata/floor2,
+/area/dark_was_the_night/canteen)
 "iy" = (
 /obj/item/tool/warning_cone,
 /obj/structure/pipes/vents/pump{
@@ -395,6 +923,9 @@
 	},
 /turf/open/floor/strata/floor2,
 /area/dark_was_the_night/engineering)
+"iP" = (
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/pod_bay)
 "iV" = (
 /obj/structure/machinery/washing_machine{
 	pixel_x = -2;
@@ -407,9 +938,36 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/dorms)
+"iW" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	layer = 2.5;
+	pixel_y = 1;
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor2,
+/area/dark_was_the_night/briefing)
+"iX" = (
+/turf/open/floor/strata/multi_tiles,
+/area/dark_was_the_night/armory)
+"jc" = (
+/obj/structure/machinery/door/poddoor/almayer/closed{
+	name = "Storage Shutters";
+	id = "unsc_armory_spec";
+	dir = 4
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/armory)
 "jd" = (
-/turf/open/floor/strata/multi_tiles/southwest,
-/area/space)
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/canteen)
 "jn" = (
 /obj/structure/surface/rack{
 	color = "#6b675e";
@@ -427,6 +985,17 @@
 	pixel_y = 15
 	},
 /turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
+"jo" = (
+/obj/effect/step_trigger/clone_cleaner,
+/turf/closed/wall/unsc/reinforced/hull,
+/area/dark_was_the_night/cryo_hall)
+"js" = (
+/obj/structure/window/framed/unsc,
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	dir = 4
+	},
+/turf/open/floor/corsat,
 /area/dark_was_the_night/cryo_bay)
 "jv" = (
 /obj/structure/curtain/red{
@@ -449,8 +1018,20 @@
 	light_power = 0.8;
 	light_range = 4
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/upper_hallway)
+"jz" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/dorms)
 "jD" = (
 /obj/structure/machinery/door/airlock/unsc{
 	autoname = 1;
@@ -468,6 +1049,21 @@
 	},
 /turf/open/floor/strata/orange_edge,
 /area/dark_was_the_night/engineering)
+"jJ" = (
+/obj/structure/machinery/light/double{
+	dir = 1;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/pod_bay)
+"jO" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/dorms)
 "jQ" = (
 /obj/effect/landmark/late_join,
 /obj/effect/landmark/late_join/alpha,
@@ -485,8 +1081,30 @@
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
 "jT" = (
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/dark_was_the_night/cryo_hall)
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/medical)
+"jV" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/upper_hallway)
+"jW" = (
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_x = -8;
+	pixel_y = 3
+	},
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_x = 7;
+	pixel_y = 3
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/briefing)
 "jX" = (
 /obj/structure/closet{
 	desc = "It's a fancy storage unit for long-life foodstuffs.";
@@ -508,9 +1126,30 @@
 /obj/item/reagent_container/food/snacks/flour,
 /turf/open/floor/freezerfloor,
 /area/dark_was_the_night/canteen)
+"ka" = (
+/obj/structure/machinery/smartfridge/chemistry,
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/purp1,
+/area/dark_was_the_night/medical)
 "kc" = (
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/dark_was_the_night/cryo_bay)
+"ke" = (
+/obj/structure/machinery/power/apc/almayer/west,
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning";
+	pixel_y = 0;
+	color = "#E10600";
+	dir = 8;
+	pixel_x = -1
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/purp3,
+/area/dark_was_the_night/medical)
 "kn" = (
 /obj/structure/machinery/light/small{
 	dir = 8;
@@ -518,8 +1157,32 @@
 	light_power = 0.8;
 	light_range = 4
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/upper_hallway)
+"ky" = (
+/obj/structure/closet/secure_closet/halo/job_locker/weapons_spec/ft1,
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo";
+	pixel_x = 1
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"kz" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/machinery/light/small/red,
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/briefing)
 "kA" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "door_warning";
@@ -530,6 +1193,29 @@
 /obj/structure/machinery/power/apc/almayer/north,
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/upper_hallway)
+"kH" = (
+/obj/structure/machinery/prop/almayer/CICmap{
+	pixel_x = 0;
+	pixel_y = 5
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/armory)
+"kI" = (
+/obj/structure/machinery/cm_vending/sorted/medical/chemistry,
+/obj/structure/medical_supply_link,
+/obj/structure/machinery/light/double{
+	dir = 4;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/obj/item/storage/box/pillbottles{
+	pixel_x = 0;
+	pixel_y = 18
+	},
+/turf/open/floor/strata/purp1,
+/area/dark_was_the_night/medical)
 "kZ" = (
 /obj/structure/machinery/power/smes/buildable,
 /obj/structure/machinery/power/smes/buildable{
@@ -538,10 +1224,52 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/engineering)
+"le" = (
+/obj/item/weapon/gun/rifle/halo/br55,
+/turf/open/space/basic,
+/area/space)
+"lg" = (
+/obj/structure/prop/unsc_crate/corrugated/blue{
+	pixel_y = 3;
+	pixel_x = -4
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/canteen)
+"lk" = (
+/turf/closed/shuttle{
+	dir = 1;
+	icon_state = "pwall"
+	},
+/area/space)
+"lz" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning";
+	pixel_y = 0;
+	dir = 8;
+	pixel_x = -2
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/cryo_bay)
+"lE" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/armory)
 "lJ" = (
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/dark_was_the_night/engineering)
+"lM" = (
+/obj/structure/machinery/vending/cigarette/wy{
+	pixel_x = 1;
+	pixel_y = 5
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
 "lX" = (
 /obj/effect/landmark/late_join,
 /obj/effect/landmark/late_join/alpha,
@@ -555,9 +1283,33 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
+"mg" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/canteen)
+"mi" = (
+/obj/item/ammo_magazine/shotgun/buckshot/unsc,
+/turf/open/space/basic,
+/area/space)
 "mk" = (
 /turf/open/floor/strata/multi_tiles,
 /area/dark_was_the_night/upper_hallway)
+"ml" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning";
+	pixel_y = -1;
+	color = "#E10600";
+	dir = 2;
+	pixel_x = 0
+	},
+/obj/structure/machinery/power/apc/almayer/south,
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
 "mr" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -576,16 +1328,87 @@
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/dark_was_the_night/dorms)
+"mx" = (
+/obj/structure/machinery/reagentgrinder{
+	pixel_y = 3
+	},
+/obj/item/stack/sheet/mineral/phoron{
+	amount = 25;
+	pixel_x = -1;
+	pixel_y = 8
+	},
+/obj/structure/surface/table/reinforced/black,
+/turf/open/floor/strata/purp1,
+/area/dark_was_the_night/medical)
 "mC" = (
 /obj/structure/barricade/handrail/type_nv{
 	dir = 1;
 	pixel_y = 13
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/canteen)
 "mD" = (
 /turf/open/floor/strata/multi_tiles/west,
 /area/dark_was_the_night/cryo_bay)
+"mL" = (
+/obj/structure/barricade/handrail/type_nv{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 2
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 2
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/armory)
+"mO" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/surface/table/reinforced/prison{
+	color = "#ffe6e6"
+	},
+/obj/structure/machinery/faxmachine/unsc,
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/dorms)
+"mP" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#ffe6e6"
+	},
+/obj/item/trash/waffles{
+	pixel_x = 6;
+	pixel_y = 7
+	},
+/obj/item/reagent_container/food/snacks/carrotcakeslice{
+	pixel_x = 5;
+	pixel_y = 8
+	},
+/obj/item/weapon/swiss_army_knife/spoon{
+	pixel_x = 7;
+	pixel_y = -10
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/canteen)
+"nh" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1;
+	pixel_y = 0
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out";
+	layer = 2.5
+	},
+/obj/structure/machinery/door/airlock/unsc/glass{
+	dir = 1;
+	autoname = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
 "nw" = (
 /obj/structure/barricade/handrail/type_nv,
 /turf/open/floor/corsat/marked,
@@ -593,16 +1416,54 @@
 "nB" = (
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/dark_was_the_night/upper_hallway)
+"nK" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#ffe6e6"
+	},
+/obj/item/trash/ceramic_plate{
+	pixel_x = 4;
+	pixel_y = -8
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/canteen)
 "nO" = (
 /obj/structure/stairs,
 /obj/effect/step_trigger/teleporter_vector{
 	vector_x = 17;
-	vector_y = 51
+	vector_y = 51;
+	name = "to_eng"
 	},
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/upper_hallway)
-"nU" = (
-/turf/closed/wall/almayer/aicore/white,
+"nR" = (
+/obj/effect/step_trigger/clone_cleaner,
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/upper_hallway)
+"nS" = (
+/obj/structure/platform_decoration/strata/metal{
+	dir = 4
+	},
+/obj/effect/step_trigger/clone_cleaner,
+/obj/structure/machinery/light/small{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "SW-out";
+	layer = 2.5
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/upper_hallway)
+"nT" = (
+/obj/item/ammo_box/magazine/unsc/ma5b,
+/turf/open/space/basic,
 /area/space)
 "nV" = (
 /obj/structure/surface/rack{
@@ -623,9 +1484,45 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
+"ob" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#ffe6e6"
+	},
+/obj/item/toy/deck{
+	pixel_x = -9;
+	pixel_y = 5
+	},
+/obj/item/reagent_container/food/drinks/cans/classcola{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/structure/machinery/light/double{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
 "oc" = (
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_hall)
+"oo" = (
+/obj/item/ammo_box/magazine/unsc/ma5c/shredder,
+/turf/open/space/basic,
+/area/space)
+"op" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/pod_bay)
+"os" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/briefing)
 "ow" = (
 /obj/structure/machinery/power/terminal{
 	dir = 4
@@ -647,7 +1544,34 @@
 	pixel_x = 6;
 	pixel_y = 11
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/freezerfloor,
+/area/dark_was_the_night/canteen)
+"oz" = (
+/obj/structure/closet/secure_closet/marine_personal/odst/specialist{
+	pixel_x = 8
+	},
+/obj/structure/closet/secure_closet/marine_personal/odst/team_leader{
+	pixel_x = -8
+	},
+/obj/structure/machinery/light/small{
+	dir = 4;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
+"oA" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
 /area/dark_was_the_night/canteen)
 "oU" = (
 /obj/structure/machinery/power/terminal{
@@ -665,16 +1589,75 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/dark_was_the_night/engineering)
+"oV" = (
+/obj/structure/machinery/light/small/red,
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/cryo_bay)
+"oX" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/phone_base{
+	phone_category = "UNSC Ship";
+	pixel_x = 19;
+	pixel_y = 3;
+	phone_id = "Briefing";
+	dir = 8;
+	name = "Briefing"
+	},
+/obj/item/notepad/black{
+	pixel_y = 8;
+	pixel_x = 4
+	},
+/obj/item/tool/pen{
+	pixel_x = -10;
+	pixel_y = 7
+	},
+/obj/structure/blocker/invisible_wall/directional,
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
 "pe" = (
 /obj/structure/prop/structure_lattice{
 	dir = 6
 	},
 /turf/open/floor/corsat,
 /area/dark_was_the_night/canteen)
+"pf" = (
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
+"ph" = (
+/turf/open/shuttle/escapepod/floor1/east,
+/area/dark_was_the_night/cryo_bay)
+"pi" = (
+/obj/structure/closet/secure_closet/halo/job_locker/rto,
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo";
+	pixel_x = 1
+	},
+/obj/item/device/binoculars/fire_support/unsc,
+/obj/item/storage/backpack/marine/satchel/rto/unsc,
+/obj/item/ammo_box/magazine/misc/unsc/flare/signal,
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"pl" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/purp3,
+/area/dark_was_the_night/medical)
+"ps" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning";
+	pixel_y = 0;
+	dir = 4;
+	pixel_x = 2
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/cryo_bay)
 "pw" = (
-/obj/structure/cable/heavyduty/north_east,
 /obj/structure/machinery/light/small/red,
-/turf/open/floor/corsat,
+/obj/structure/platform_decoration/strata/metal{
+	dir = 4
+	},
+/turf/open/shuttle/escapepod/floor0/north,
 /area/dark_was_the_night/cryo_bay)
 "pA" = (
 /obj/structure/machinery/light/double{
@@ -685,6 +1668,9 @@
 	pixel_y = 0;
 	pixel_x = 15
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/strata/white_cyan2/west,
 /area/dark_was_the_night/canteen)
 "pM" = (
@@ -693,6 +1679,10 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/canteen)
+"pN" = (
+/obj/structure/gun_rack/halo/armory/ma5b/unloaded,
+/turf/open/space/basic,
+/area/space)
 "pR" = (
 /obj/structure/machinery/shower{
 	dir = 8;
@@ -712,8 +1702,43 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/dark_was_the_night/canteen)
+"qg" = (
+/obj/structure/sign/safety/one{
+	pixel_x = 0;
+	pixel_y = -26
+	},
+/obj/structure/sign/safety/two{
+	pixel_x = 16;
+	pixel_y = -26
+	},
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/machinery/recharger{
+	pixel_y = 4;
+	pixel_x = 0
+	},
+/turf/open/floor/strata/white_cyan3/south,
+/area/dark_was_the_night/medical)
+"qj" = (
+/obj/structure/blocker/invisible_wall,
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
+"qs" = (
+/obj/structure/bookcase{
+	density = 0;
+	icon_state = "book-5";
+	pixel_y = 18;
+	can_block_movement = 0
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor2,
+/area/dark_was_the_night/briefing)
 "qt" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 8;
@@ -721,10 +1746,107 @@
 	},
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/dark_was_the_night/canteen)
+"qv" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 2
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 2
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/armory)
+"qy" = (
+/obj/structure/machinery/prop/almayer/CICmap/table/segment/one{
+	pixel_x = 16;
+	density = 0
+	},
+/obj/item/notepad/black{
+	pixel_y = 16;
+	pixel_x = 16
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
+"qL" = (
+/obj/item/ammo_box/magazine/misc/unsc/mre,
+/turf/open/space/basic,
+/area/space)
 "qN" = (
-/obj/structure/cable/heavyduty/north_west,
-/turf/open/floor/corsat,
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/turf/open/shuttle/escapepod/north,
 /area/dark_was_the_night/cryo_bay)
+"qT" = (
+/obj/structure/machinery/light/small{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/cryo_hall)
+"qY" = (
+/obj/structure/prop/unsc_crate/standard{
+	pixel_x = -5;
+	pixel_y = -1;
+	color = "#b3b27d"
+	},
+/obj/item/reagent_container/glass/barrel/water{
+	pixel_x = -4;
+	pixel_y = 10
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
+"rb" = (
+/obj/structure/platform/strata/metal{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/briefing)
+"rc" = (
+/obj/structure/machinery/light/small{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4;
+	invisibility = 100
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/dark_was_the_night/armory)
+"rg" = (
+/obj/structure/window/framed/unsc,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 2
+	},
+/turf/open/floor/corsat,
+/area/dark_was_the_night/briefing)
+"rk" = (
+/obj/structure/surface/rack{
+	color = "#ffe6e6";
+	layer = 2.79
+	},
+/obj/item/ammo_box/magazine/unsc/br55{
+	pixel_x = 0;
+	pixel_y = 5
+	},
+/obj/item/ammo_box/magazine/unsc/br55/extended{
+	pixel_x = 0;
+	pixel_y = 12
+	},
+/obj/structure/machinery/light/double{
+	dir = 4;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/dark_was_the_night/armory)
 "rq" = (
 /obj/effect/landmark/late_join,
 /obj/effect/landmark/late_join/alpha,
@@ -763,23 +1885,37 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/dark_was_the_night/dorms)
 "rB" = (
+/obj/structure/machinery/power/reactor{
+	name = "\improper S-52 fusion reactor 17"
+	},
+/turf/open/floor/almayer,
+/area/dark_was_the_night)
+"rK" = (
 /obj/structure/machinery/light/double{
-	dir = 1;
+	dir = 8;
 	light_color = "#e7c0a4";
 	light_power = 0.8;
 	light_range = 5
 	},
-/turf/open/floor/strata/multi_tiles,
-/area/dark_was_the_night/cryo_bay)
-"rK" = (
-/obj/structure/machinery/light/small{
-	dir = 8;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 4
-	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/canteen)
+"rN" = (
+/obj/structure/gun_rack/halo/armory/br55/unloaded,
+/turf/open/space/basic,
+/area/space)
+"rS" = (
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_x = 7;
+	pixel_y = 3
+	},
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_x = -8;
+	pixel_y = 3
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/briefing)
 "rV" = (
 /obj/structure/machinery/power/terminal{
 	dir = 8
@@ -789,6 +1925,22 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/dark_was_the_night/engineering)
+"sa" = (
+/turf/open/floor/strata/floor2,
+/area/dark_was_the_night/briefing)
+"sh" = (
+/obj/structure/window/framed/unsc,
+/obj/structure/machinery/door/poddoor/almayer/locked{
+	dir = 4
+	},
+/turf/open/floor/corsat,
+/area/dark_was_the_night/pod_bay)
+"sk" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/white_cyan3/north,
+/area/dark_was_the_night/medical)
 "sn" = (
 /obj/structure/machinery/power/apc/almayer/south,
 /obj/effect/decal/warning_stripes{
@@ -796,12 +1948,28 @@
 	pixel_y = -1;
 	color = "#E10600"
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/engineering)
+"su" = (
+/obj/structure/ladder{
+	id = "unsc_brifieng";
+	height = -1
+	},
+/obj/structure/machinery/light/small/red{
+	dir = 1
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/briefing)
 "sz" = (
 /obj/structure/gun_rack/halo/medkit{
 	pixel_y = 25;
 	pixel_x = 15
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/dark_was_the_night/canteen)
@@ -810,11 +1978,47 @@
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/upper_hallway)
 "sI" = (
-/turf/closed/wall/unsc/reinforced/hull,
-/area/space)
+/obj/structure/machinery/cm_vending/sorted/medical/unsc{
+	pixel_y = 21;
+	pixel_x = 5;
+	density = 0;
+	req_access = list(8,40);
+	name = "\improper Squad Two Optican Military Supply"
+	},
+/obj/structure/machinery/light/small{
+	dir = 4;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/obj/structure/prop/unsc_crate/standard/medical{
+	pixel_x = -1;
+	pixel_y = 0
+	},
+/obj/item/pamphlet/skill/surgery{
+	pixel_x = 0;
+	pixel_y = 10
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/dark_was_the_night/medical)
 "sK" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/open/floor/plating/plating_catwalk/strata,
-/area/dark_was_the_night/upper_hallway)
+/area/dark_was_the_night/armory)
+"sM" = (
+/turf/open/floor/almayer_hull/outerhull_dir/southwest,
+/area/dark_was_the_night/pod_bay)
+"sO" = (
+/obj/structure/extinguisher_cabinet/alt{
+	pixel_y = 32
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
 "sP" = (
 /obj/structure/platform/strata/metal{
 	dir = 8
@@ -835,6 +2039,31 @@
 	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/dark_was_the_night/engineering)
+"tr" = (
+/obj/structure/surface/rack{
+	color = "#ffe6e6";
+	layer = 2.79
+	},
+/obj/item/roller{
+	pixel_x = 1;
+	pixel_y = 3
+	},
+/obj/item/roller{
+	pixel_x = 1;
+	pixel_y = 10
+	},
+/turf/open/floor/strata/white_cyan4/west,
+/area/dark_was_the_night/medical)
+"tG" = (
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/briefing)
+"tO" = (
+/obj/item/weapon/gun/rifle/halo/ma5c/unloaded,
+/turf/open/space/basic,
+/area/space)
+"tT" = (
+/turf/closed/wall/unsc,
+/area/dark_was_the_night/armory)
 "tY" = (
 /obj/structure/sign/nosmoking_1{
 	pixel_y = -30;
@@ -843,9 +2072,101 @@
 	},
 /turf/open/floor/strata/multi_tiles,
 /area/dark_was_the_night/canteen)
+"ud" = (
+/turf/open/floor/strata/multi_tiles,
+/area/dark_was_the_night/pod_bay)
+"un" = (
+/obj/structure/machinery/cm_vending/sorted/medical/unsc{
+	pixel_y = 21;
+	pixel_x = -5;
+	density = 0;
+	req_access = list(8,39);
+	name = "\improper Squad One Optican Military Supply"
+	},
+/obj/structure/machinery/light/small{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/obj/structure/bed/chair/wheelchair{
+	dir = 2;
+	pixel_x = 13;
+	pixel_y = 17
+	},
+/obj/item/clothing/shoes/slippers{
+	pixel_x = 0;
+	pixel_y = -5
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/dark_was_the_night/medical)
+"uo" = (
+/obj/structure/closet/secure_closet/marine_personal/odst/rifleman{
+	pixel_x = 8
+	},
+/obj/structure/closet/secure_closet/marine_personal/odst/rifleman{
+	pixel_x = -8
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
+"uq" = (
+/obj/structure/bed,
+/obj/item/bedsheet/brown,
+/obj/structure/bed{
+	layer = 4.1;
+	pixel_y = 12
+	},
+/obj/item/bedsheet/brown{
+	layer = 4.2;
+	pixel_y = 12
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	pixel_x = 2
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/dorms)
+"us" = (
+/obj/structure/barricade/handrail/type_nv{
+	dir = 4
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
 "uu" = (
 /turf/closed/wall/unsc,
 /area/dark_was_the_night/cryo_hall)
+"uD" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#ffe6e6"
+	},
+/obj/item/trash/USCMtray{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/canteen)
+"uE" = (
+/obj/structure/surface/rack{
+	color = "#ffe6e6";
+	layer = 2.79
+	},
+/obj/item/ammo_box/magazine/unsc/ma5c{
+	pixel_x = 0;
+	pixel_y = 5
+	},
+/obj/item/ammo_box/magazine/unsc/ma5c/shredder{
+	pixel_x = 0;
+	pixel_y = 12
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo";
+	pixel_x = 1
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
 "uU" = (
 /obj/structure/platform/strata/metal{
 	dir = 4
@@ -857,17 +2178,42 @@
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/corsat,
 /area/dark_was_the_night/engineering)
+"uZ" = (
+/obj/structure/bed/chair{
+	dir = 4;
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/clothing/mask/electronic_cigarette{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
 "vb" = (
 /turf/closed/wall/unsc/reinforced/hull,
 /area/dark_was_the_night/cryo_bay)
-"vp" = (
-/obj/structure/window/framed/unsc,
-/obj/structure/machinery/door/poddoor/almayer/locked{
-	name = "\improper Other Sections";
-	dir = 4
+"vm" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
-/turf/open/floor/corsat,
-/area/dark_was_the_night/cryo_hall)
+/obj/structure/machinery/light/small{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/dark_was_the_night/dorms)
+"vp" = (
+/obj/structure/machinery/door/airlock/unsc{
+	autoname = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/cryo_bay)
 "vv" = (
 /obj/structure/machinery/door/airlock/unsc{
 	dir = 1;
@@ -879,6 +2225,9 @@
 /obj/structure/gun_rack/halo/medkit{
 	pixel_y = 25;
 	pixel_x = -16
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/dark_was_the_night/engineering)
@@ -901,20 +2250,50 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/strata/floor2,
 /area/dark_was_the_night/engineering)
+"vG" = (
+/obj/structure/bed/roller/hospital_empty/bigrollerempty2{
+	dir = 1
+	},
+/obj/structure/machinery/iv_drip{
+	pixel_y = 22;
+	layer = 5.1
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/white_cyan4/east,
+/area/dark_was_the_night/medical)
 "vI" = (
-/obj/structure/surface/table/reinforced/prison{
-	color = "#ffe6e6"
+/obj/structure/machinery/door/airlock/unsc{
+	autoname = 1;
+	dir = 4
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/armory)
+"vK" = (
+/obj/structure/window/framed/unsc,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/dark_was_the_night/cryo_bay)
+"vN" = (
+/obj/structure/platform/strata/metal{
+	dir = 8;
+	layer = 3.01
+	},
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 2
 	},
 /turf/open/floor/strata/floor3,
-/area/space)
-"vK" = (
-/obj/structure/machinery/door/airlock/unsc/prop,
-/turf/open/floor/corsat/marked,
-/area/dark_was_the_night/cryo_hall)
+/area/dark_was_the_night/upper_hallway)
 "vO" = (
 /obj/structure/platform/strata/metal{
 	dir = 8;
 	layer = 3.01
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/upper_hallway)
@@ -933,8 +2312,46 @@
 	pixel_x = -2;
 	pixel_y = 18
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/strata/white_cyan1,
 /area/dark_was_the_night/canteen)
+"vS" = (
+/obj/structure/barricade/handrail/type_nv{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/armory)
+"vW" = (
+/obj/structure/bed,
+/obj/item/bedsheet/brown,
+/obj/structure/bed{
+	layer = 4.1;
+	pixel_y = 12
+	},
+/obj/item/bedsheet/brown{
+	layer = 4.2;
+	pixel_y = 12
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	pixel_x = 2
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/dorms)
+"wa" = (
+/turf/open/floor/almayer_hull/outerhull_dir/west,
+/area/dark_was_the_night/pod_bay)
+"wc" = (
+/obj/structure/stairs{
+	dir = 4
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/cryo_hall)
 "wd" = (
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/dark_was_the_night/dorms)
@@ -950,6 +2367,22 @@
 /obj/structure/barricade/handrail/type_nv,
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/dark_was_the_night/cryo_bay)
+"wo" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 6
+	},
+/obj/structure/extinguisher_cabinet/alt{
+	pixel_x = 0;
+	pixel_y = 27
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/armory)
 "wr" = (
 /obj/structure/bed/chair/comfy/bench/south/west{
 	color = "#ffe6e6";
@@ -958,16 +2391,52 @@
 	},
 /turf/open/floor/strata/floor2,
 /area/dark_was_the_night/canteen)
+"ws" = (
+/turf/closed/void,
+/area/space)
+"wz" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 1;
+	pixel_x = -2;
+	pixel_y = 12
+	},
+/obj/structure/machinery/light/double{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/armory)
 "wA" = (
 /obj/structure/machinery/cryopod/big/halo/flipped,
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/cryo_bay)
+"wI" = (
+/obj/item/ammo_box/magazine/misc/unsc/m7_ammo,
+/turf/open/space/basic,
+/area/space)
+"wK" = (
+/obj/structure/machinery/light/double{
+	dir = 1;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/almayer_hull/outerhull_dir,
+/area/dark_was_the_night/pod_bay)
 "wM" = (
 /obj/structure/stairs{
 	dir = 4
 	},
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/upper_hallway)
+"wO" = (
+/obj/structure/machinery/door/airlock/multi_tile/unsc/prop{
+	dir = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
 "wR" = (
 /obj/structure/prop/unsc_crate/corrugated/blue{
 	pixel_x = 6;
@@ -989,6 +2458,36 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_hall)
+"wW" = (
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/pod_bay)
+"xe" = (
+/obj/structure/gun_rack/halo/medkit{
+	pixel_y = 25;
+	pixel_x = 0
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"xf" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1;
+	pixel_y = 0
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/armory)
+"xi" = (
+/obj/structure/machinery/computer3/server/rack{
+	pixel_y = 5
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 4
+	},
+/turf/open/floor/podhatchfloor,
+/area/dark_was_the_night/briefing)
 "xn" = (
 /obj/effect/landmark/late_join,
 /obj/effect/landmark/late_join/alpha,
@@ -1002,6 +2501,59 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
+"xo" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/machinery/firealarm{
+	dir = 4;
+	pixel_x = 19
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/canteen)
+"xt" = (
+/obj/structure/surface/rack{
+	color = "#ffe6e6";
+	layer = 2.79
+	},
+/obj/item/ammo_box/magazine/misc/unsc/grenade/launchable{
+	pixel_x = 0;
+	pixel_y = 3
+	},
+/obj/item/ammo_box/magazine/misc/unsc/grenade{
+	pixel_x = 0;
+	pixel_y = 8
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"xu" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#ffe6e6"
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/dorms)
+"xw" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/engineering)
+"xx" = (
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_x = 7;
+	pixel_y = 3
+	},
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_x = -8;
+	pixel_y = 3
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/briefing)
 "xB" = (
 /obj/structure/surface/table/reinforced/prison{
 	color = "#ffe6e6"
@@ -1022,8 +2574,18 @@
 /area/dark_was_the_night/upper_hallway)
 "xZ" = (
 /obj/structure/machinery/vending/dinnerware/unsc/alt,
-/turf/open/space/basic,
+/turf/open/floor/corsat/marked,
 /area/dark_was_the_night/canteen)
+"ya" = (
+/obj/structure/sign/safety/cryo{
+	pixel_y = 31;
+	pixel_x = 8
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_hall)
+"yg" = (
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/dark_was_the_night/armory)
 "yi" = (
 /obj/structure/platform/strata/metal{
 	dir = 4
@@ -1034,6 +2596,12 @@
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/corsat,
 /area/dark_was_the_night/engineering)
+"yj" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/dark_was_the_night/dorms)
 "yp" = (
 /turf/open/floor/strata/multi_tiles/west,
 /area/dark_was_the_night/canteen)
@@ -1041,13 +2609,59 @@
 /obj/effect/step_trigger/clone_cleaner,
 /turf/closed/wall/unsc/reinforced/hull,
 /area/dark_was_the_night/engineering)
+"yt" = (
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/briefing)
+"yv" = (
+/obj/structure/prop/unsc_crate/standard/blue{
+	pixel_x = 6;
+	pixel_y = 11
+	},
+/obj/structure/prop/unsc_crate/standard/green{
+	pixel_x = -12;
+	pixel_y = 3;
+	layer = 3.1
+	},
+/obj/structure/prop/unsc_crate/standard/red{
+	pixel_x = 6;
+	pixel_y = -4
+	},
+/obj/structure/prop/unsc_crate/standard{
+	color = "#646466";
+	pixel_x = 2;
+	pixel_y = 16;
+	layer = 3.2
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 1;
+	pixel_x = 1
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"yw" = (
+/obj/structure/machinery/light/small{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/cryo_hall)
 "yC" = (
 /obj/structure/platform/strata/metal{
 	dir = 4
 	},
 /obj/structure/platform/strata/metal,
-/turf/open/floor/corsat,
+/turf/open/shuttle/escapepod/west,
 /area/dark_was_the_night/canteen)
+"yJ" = (
+/obj/structure/window/framed/unsc,
+/turf/open/floor/plating,
+/area/dark_was_the_night/cryo_bay)
 "yL" = (
 /turf/closed/wall/unsc/reinforced/hull,
 /area/dark_was_the_night/upper_hallway)
@@ -1057,6 +2671,49 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/dorms)
+"yQ" = (
+/obj/structure/machinery/door/airlock/unsc/glass{
+	dir = 1;
+	req_access = list(14);
+	name = "\improper Radio Telephone Operator Room"
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/armory)
+"zc" = (
+/obj/structure/machinery/computer3/server/rack{
+	pixel_y = 5
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 8
+	},
+/turf/open/floor/podhatchfloor,
+/area/dark_was_the_night/briefing)
+"zn" = (
+/obj/item/ammo_box/magazine/unsc/br55,
+/turf/open/space/basic,
+/area/space)
+"zs" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/machinery/light/small{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/dorms)
+"zB" = (
+/obj/structure/barricade/handrail/type_nv{
+	dir = 8
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/armory)
+"zL" = (
+/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep/unsc/odst,
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/armory)
 "zN" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
@@ -1066,6 +2723,10 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/engineering)
+"Aa" = (
+/obj/structure/window/framed/unsc,
+/turf/open/floor/corsat,
+/area/dark_was_the_night/medical)
 "Ab" = (
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/dark_was_the_night/canteen)
@@ -1090,6 +2751,9 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_hall)
+"As" = (
+/turf/open/floor/almayer_hull/outerhull_dir/northwest,
+/area/dark_was_the_night/pod_bay)
 "Ax" = (
 /obj/structure/machinery/disposal{
 	pixel_x = -1;
@@ -1115,6 +2779,18 @@
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/dark_was_the_night/dorms)
+"AB" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1;
+	pixel_y = 0
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "W";
+	layer = 3.3
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/briefing)
 "AH" = (
 /obj/structure/bed/chair/comfy/bench/north/west{
 	color = "#ffe6e6";
@@ -1127,30 +2803,244 @@
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/dark_was_the_night/upper_hallway)
+"AO" = (
+/obj/structure/closet/secure_closet/marine_personal/odst/rifleman{
+	pixel_x = -8
+	},
+/obj/structure/closet/secure_closet/marine_personal/odst/rifleman{
+	pixel_x = 8
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
 "AQ" = (
 /obj/structure/machinery/cryopod/big/halo,
 /turf/open/floor/corsat/marked,
+/area/dark_was_the_night/cryo_bay)
+"Ba" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/upper_hallway)
+"Bf" = (
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/briefing)
+"Bo" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 1;
+	pixel_x = 0
+	},
+/turf/open/floor/strata/floor2,
+/area/dark_was_the_night/briefing)
+"BG" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/dorms)
+"BN" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#ffe6e6"
+	},
+/obj/item/clipboard{
+	pixel_x = 6;
+	pixel_y = 5
+	},
+/obj/item/clothing/head/cmcap/bridge{
+	pixel_y = -2;
+	pixel_x = -7
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
+"BQ" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor2,
+/area/dark_was_the_night/briefing)
+"BR" = (
+/obj/structure/closet/secure_closet/marine_personal/odst/specialist{
+	pixel_x = -8
+	},
+/obj/structure/closet/secure_closet/marine_personal/odst/team_leader{
+	pixel_x = 8
+	},
+/obj/structure/machinery/light/small{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
 "BS" = (
 /obj/effect/step_trigger/clone_cleaner,
 /turf/closed/wall/unsc/reinforced/hull,
 /area/dark_was_the_night/upper_hallway)
+"BY" = (
+/obj/structure/surface/rack{
+	color = "#ffe6e6";
+	layer = 2.79
+	},
+/obj/item/ammo_box/magazine/unsc/small/m6c/socom{
+	pixel_x = 2;
+	pixel_y = 16
+	},
+/obj/item/ammo_box/magazine/misc/unsc/m7_ammo{
+	pixel_x = 0;
+	pixel_y = 3
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
 "Cb" = (
 /turf/open/floor/strata/multi_tiles,
 /area/dark_was_the_night/cryo_hall)
+"Ch" = (
+/obj/structure/blocker/invisible_wall,
+/obj/structure/machinery/light/double{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
 "Ck" = (
 /obj/structure/surface/table/reinforced/prison{
 	color = "#ffe6e6"
 	},
+/obj/item/reagent_container/food/drinks/coffeecup{
+	pixel_x = -5;
+	pixel_y = 2
+	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/canteen)
+"CD" = (
+/obj/structure/machinery/light/double{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"CE" = (
+/obj/structure/surface/rack{
+	color = "#ffe6e6";
+	layer = 2.79
+	},
+/obj/item/weapon/gun/shotgun/pump/halo/m90/unloaded,
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo";
+	pixel_x = 1
+	},
+/obj/structure/machinery/light/double{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"CH" = (
+/turf/closed/wall/unsc,
+/area/dark_was_the_night/medical)
 "CK" = (
-/obj/structure/cable/heavyduty/west_east,
-/turf/open/floor/corsat,
+/turf/open/shuttle/escapepod/west,
 /area/dark_was_the_night/cryo_bay)
+"Df" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/paper_bin{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/tool/pen{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/obj/item/tool/stamp/uscm{
+	pixel_x = -6;
+	pixel_y = -1;
+	name = "UNSC rubber stamp"
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/briefing)
 "Dj" = (
 /turf/open/floor/strata/white_cyan2/west,
 /area/dark_was_the_night/canteen)
+"Dq" = (
+/obj/structure/machinery/light/double{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/almayer_hull/outerhull_dir/northeast,
+/area/dark_was_the_night/pod_bay)
+"DH" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/armory)
+"DI" = (
+/obj/item/ammo_magazine/shotgun/beanbag/unsc,
+/turf/open/space/basic,
+/area/space)
+"DJ" = (
+/obj/structure/machinery/light/small/red,
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/briefing)
+"DT" = (
+/obj/structure/bed/bedroll{
+	desc = "A bed of cotton fabric, purposely made for a cat to comfortably sleep on.";
+	name = "cat bed";
+	pixel_x = -1;
+	pixel_y = -3
+	},
+/mob/living/simple_animal/cat/Jones{
+	dir = 8
+	},
+/obj/item/trash/plate{
+	pixel_x = 6;
+	pixel_y = 15
+	},
+/obj/item/reagent_container/food/snacks/carpmeat{
+	pixel_x = 5;
+	pixel_y = 15
+	},
+/obj/structure/machinery/light/double{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/strata/floor2,
+/area/dark_was_the_night/briefing)
+"Ea" = (
+/obj/structure/bed/chair/comfy/bench/north/west{
+	color = "#ffe6e6";
+	pixel_x = -7;
+	pixel_y = 3
+	},
+/obj/item/ammo_magazine/shotgun/buckshot/unsc{
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/obj/item/ammo_magazine/shotgun/buckshot/unsc{
+	pixel_x = -4;
+	pixel_y = -6
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
 "Ee" = (
 /obj/structure/sink{
 	pixel_y = 24;
@@ -1166,33 +3056,351 @@
 /turf/open/floor/almayer/dark_sterile,
 /area/dark_was_the_night/dorms)
 "Ej" = (
-/obj/structure/cable/heavyduty/east_south,
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1
 	},
-/turf/open/floor/corsat,
+/turf/open/shuttle/escapepod/floor2,
 /area/dark_was_the_night/canteen)
 "Ep" = (
 /turf/closed/wall/unsc,
 /area/dark_was_the_night/dorms)
+"Eq" = (
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = -8;
+	pixel_y = 12
+	},
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = 8;
+	pixel_y = 12
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning";
+	pixel_y = -1;
+	dir = 2;
+	pixel_x = 0
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"Er" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1;
+	pixel_y = 0
+	},
+/obj/effect/step_trigger/clone_cleaner,
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/cryo_hall)
 "Ex" = (
 /turf/closed/wall/unsc,
 /area/dark_was_the_night/canteen)
+"EG" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/armory)
 "EJ" = (
 /turf/open/floor/strata/multi_tiles,
 /area/dark_was_the_night/dorms)
+"EK" = (
+/obj/structure/machinery/door/airlock/unsc/glass{
+	dir = 1;
+	req_access = list(8,40);
+	autoname = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/medical)
+"ET" = (
+/obj/structure/gun_rack/halo/armory/ma5c/unloaded,
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/armory)
+"EV" = (
+/obj/structure/machinery/light/double{
+	dir = 1;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5;
+	invisibility = 100
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/dark_was_the_night/briefing)
+"EW" = (
+/obj/structure/ladder{
+	id = "unsc_brifieng"
+	},
+/obj/structure/machinery/light/small/red{
+	dir = 4
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/briefing)
+"EX" = (
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 2
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/cryo_hall)
+"EZ" = (
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 8
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 0;
+	pixel_x = 1
+	},
+/obj/effect/step_trigger/clone_cleaner,
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_hall)
+"Fa" = (
+/obj/item/ammo_magazine/rifle/halo/ma5b/shredder,
+/turf/open/space/basic,
+/area/space)
+"Fb" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 2
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 2
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/cryo_hall)
+"Fd" = (
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/obj/structure/platform/strata/metal{
+	dir = 8
+	},
+/turf/open/shuttle/escapepod/north,
+/area/dark_was_the_night/armory)
+"Fu" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/white_cyan2,
+/area/dark_was_the_night/canteen)
 "Fx" = (
 /obj/structure/stairs,
 /obj/effect/step_trigger/teleporter_vector{
 	vector_x = -17;
-	vector_y = -51
+	vector_y = -51;
+	name = "from_eng"
 	},
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/engineering)
+"FS" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning";
+	dir = 1;
+	pixel_y = 2
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/dark_was_the_night/cryo_bay)
 "FU" = (
 /turf/closed/wall/unsc/reinforced/hull,
 /area/dark_was_the_night/engineering)
 "FW" = (
+/obj/structure/bed/roller/hospital_empty/bigrollerempty2{
+	dir = 1
+	},
+/obj/structure/machinery/light/small{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/white_cyan3/west,
+/area/dark_was_the_night/medical)
+"Gc" = (
+/turf/open/floor/almayer_hull/outerhull_dir/northeast,
+/area/dark_was_the_night/pod_bay)
+"Ge" = (
+/obj/structure/machinery/light/small{
+	dir = 1;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/upper_hallway)
+"Gi" = (
+/turf/open/floor/strata/white_cyan3/north,
+/area/dark_was_the_night/medical)
+"Gl" = (
+/obj/structure/machinery/cm_vending/gear/medic_chemical/unsc{
+	pixel_x = 0;
+	pixel_y = 9
+	},
+/turf/open/floor/strata/white_cyan4/south,
+/area/dark_was_the_night/medical)
+"Gt" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
+	},
+/turf/open/floor/strata/orange_edge{
+	dir = 1
+	},
+/area/dark_was_the_night/engineering)
+"Gv" = (
+/obj/structure/filingcabinet/security{
+	pixel_y = 16;
+	pixel_x = 8;
+	can_block_movement = 0
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo";
+	pixel_x = 1
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/briefing)
+"Gw" = (
+/obj/item/ammo_magazine/rifle/halo/ma5c/shredder,
+/turf/open/space/basic,
+/area/space)
+"GK" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning";
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 0
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"GN" = (
+/obj/structure/platform_decoration/strata/metal{
+	dir = 4
+	},
+/turf/open/shuttle/escapepod/floor0/north,
+/area/dark_was_the_night/canteen)
+"GP" = (
+/obj/structure/machinery/door/airlock/multi_tile/unsc{
+	autoname = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/cryo_bay)
+"GQ" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/dorms)
+"GY" = (
+/obj/structure/largecrate/black_market/poncho{
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo";
+	pixel_x = 1
+	},
+/obj/structure/largecrate/random/mini{
+	pixel_x = 3;
+	pixel_y = 21
+	},
+/obj/structure/largecrate/random/mini{
+	pixel_x = -1;
+	pixel_y = -4
+	},
+/obj/item/trash/crushed_cup{
+	pixel_y = 4;
+	pixel_x = -2
+	},
+/obj/structure/machinery/light/small/red{
+	dir = 4
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"GZ" = (
+/obj/structure/stairs,
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/engineering)
+"Hq" = (
+/obj/structure/platform_decoration/strata/metal{
+	dir = 4
+	},
+/obj/structure/platform_decoration/strata/metal{
+	dir = 1
+	},
+/turf/open/shuttle/lifeboat,
+/area/dark_was_the_night/canteen)
+"Hr" = (
+/obj/structure/machinery/light/small/red,
+/obj/structure/platform_decoration/strata/metal{
+	dir = 8
+	},
+/turf/open/shuttle/escapepod/floor0/west,
+/area/dark_was_the_night/cryo_bay)
+"Hs" = (
+/obj/structure/machinery/door/airlock/unsc{
+	autoname = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/cryo_hall)
+"Hz" = (
+/obj/structure/machinery/light/double{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/briefing)
+"HD" = (
+/obj/structure/machinery/light/small{
+	dir = 2;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/cryo_hall)
+"HE" = (
+/turf/closed/void,
+/area/dark_was_the_night/cryo_bay)
+"HI" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/briefing)
+"HR" = (
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal{
+	dir = 1
+	},
+/turf/open/shuttle/escapepod/east,
+/area/dark_was_the_night/canteen)
+"HU" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
 /obj/structure/bed{
@@ -1207,88 +3415,24 @@
 	layer = 2.52
 	},
 /obj/structure/window/reinforced{
-	dir = 4;
-	pixel_x = 2
+	dir = 8;
+	pixel_x = -2
 	},
 /turf/open/floor/strata/floor3,
-/area/space)
-"Ge" = (
-/obj/structure/machinery/light/small{
-	dir = 1;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 4
+/area/dark_was_the_night/dorms)
+"Ic" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#ffe6e6"
+	},
+/obj/item/trash/hotdog{
+	pixel_x = 0;
+	pixel_y = 9
+	},
+/obj/item/trash/crushed_cup{
+	pixel_x = -17;
+	pixel_y = 2
 	},
 /turf/open/floor/strata/floor3,
-/area/dark_was_the_night/upper_hallway)
-"Gt" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-2"
-	},
-/turf/open/floor/strata/orange_edge{
-	dir = 1
-	},
-/area/dark_was_the_night/engineering)
-"GN" = (
-/obj/structure/cable/heavyduty/north_east,
-/obj/structure/platform_decoration/strata/metal{
-	dir = 4
-	},
-/turf/open/floor/corsat,
-/area/dark_was_the_night/canteen)
-"GP" = (
-/obj/structure/machinery/door/airlock/multi_tile/unsc{
-	autoname = 1
-	},
-/turf/open/floor/corsat/marked,
-/area/dark_was_the_night/cryo_bay)
-"GZ" = (
-/obj/structure/stairs,
-/turf/open/floor/corsat/marked,
-/area/dark_was_the_night/engineering)
-"Hq" = (
-/obj/structure/cable/heavyduty/north_west_south,
-/obj/structure/platform_decoration/strata/metal{
-	dir = 4
-	},
-/obj/structure/platform_decoration/strata/metal{
-	dir = 1
-	},
-/turf/open/floor/corsat,
-/area/dark_was_the_night/canteen)
-"Hr" = (
-/obj/structure/cable/heavyduty/north_west,
-/obj/structure/machinery/light/small/red,
-/turf/open/floor/corsat,
-/area/dark_was_the_night/cryo_bay)
-"Hs" = (
-/obj/structure/machinery/door/airlock/unsc{
-	autoname = 1
-	},
-/turf/open/floor/corsat/marked,
-/area/dark_was_the_night/cryo_hall)
-"HD" = (
-/obj/structure/machinery/light/small{
-	dir = 2;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 4
-	},
-/turf/open/floor/strata/multi_tiles/southeast,
-/area/dark_was_the_night/cryo_hall)
-"HE" = (
-/turf/closed/void,
-/area/dark_was_the_night/cryo_bay)
-"HR" = (
-/obj/structure/cable/heavyduty/west_east,
-/obj/structure/platform/strata/metal,
-/obj/structure/platform/strata/metal{
-	dir = 1
-	},
-/turf/open/floor/corsat,
 /area/dark_was_the_night/canteen)
 "If" = (
 /obj/structure/platform/strata/metal{
@@ -1301,6 +3445,21 @@
 /obj/effect/step_trigger/clone_cleaner,
 /turf/open/floor/corsat,
 /area/dark_was_the_night/engineering)
+"IA" = (
+/turf/open/floor/strata/white_cyan3/south,
+/area/dark_was_the_night/medical)
+"IB" = (
+/obj/structure/stairs{
+	dir = 4
+	},
+/obj/structure/machinery/light/small{
+	dir = 1;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/cryo_hall)
 "IJ" = (
 /turf/open/floor/freezerfloor,
 /area/dark_was_the_night/canteen)
@@ -1316,6 +3475,101 @@
 /obj/structure/machinery/power/apc/almayer/south,
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
+"Je" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/ammo_box/magazine/misc/unsc/mre{
+	pixel_x = 4;
+	pixel_y = 9
+	},
+/obj/item/explosive/grenade/high_explosive/m15/unsc{
+	pixel_x = -12;
+	pixel_y = 12
+	},
+/obj/item/prop/helmetgarb/gunoil{
+	pixel_y = 5;
+	pixel_x = -10
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"Jj" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/ammo_box/magazine/misc/unsc/medical_packets{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/item/tool/hand_labeler{
+	pixel_y = 12;
+	pixel_x = 11
+	},
+/obj/structure/prop/almayer/ship_memorial/golden_arrow{
+	pixel_x = 15;
+	pixel_y = 35;
+	desc = "A memorial plaque dedicated to those of the ODST who have fallen in combat. It's an unfortunately long list of names."
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"Jk" = (
+/obj/structure/platform_decoration/strata/metal{
+	dir = 1
+	},
+/obj/effect/step_trigger/clone_cleaner,
+/obj/structure/machinery/light/small{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_y = 1
+	},
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/upper_hallway)
+"Jl" = (
+/obj/structure/machinery/prop/almayer/CICmap/table/segment/four{
+	pixel_x = -16;
+	density = 0
+	},
+/obj/item/reagent_container/food/drinks/plasticcup{
+	pixel_y = 17;
+	pixel_x = -19
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
+"Jr" = (
+/obj/item/ammo_box/magazine/unsc/br55/extended,
+/turf/open/space/basic,
+/area/space)
+"Jz" = (
+/obj/structure/machinery/light/double{
+	dir = 4;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
+"JA" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 1;
+	pixel_x = 0
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/canteen)
+"JC" = (
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/armory)
+"JE" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
+/obj/structure/pipes/standard/manifold/hidden/supply,
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/canteen)
 "JP" = (
 /obj/item/tool/wet_sign{
 	pixel_y = 14;
@@ -1348,29 +3602,56 @@
 	},
 /turf/open/floor/strata/floor2,
 /area/dark_was_the_night/engineering)
+"JR" = (
+/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/unsc/odst,
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/armory)
 "Kn" = (
 /turf/closed/wall/unsc/reinforced/hull,
 /area/dark_was_the_night/dorms)
+"Kp" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/white_cyan2/west,
+/area/dark_was_the_night/canteen)
+"Kr" = (
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/armory)
+"Ku" = (
+/obj/item/weapon/gun/rifle/halo/ma5b,
+/turf/open/space/basic,
+/area/space)
 "Kv" = (
 /turf/closed/void,
 /area/dark_was_the_night/canteen)
-"KD" = (
-/obj/structure/bed,
-/obj/item/bedsheet/brown,
-/obj/structure/bed{
-	layer = 4.1;
-	pixel_y = 12
+"Kz" = (
+/obj/structure/closet/secure_closet/halo/job_locker/fireteam_leader/ft2,
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo";
+	pixel_x = 1
 	},
-/obj/item/bedsheet/brown{
-	layer = 4.2;
-	pixel_y = 12
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	pixel_x = 2
-	},
+/obj/item/device/binoculars/range/monocular,
+/obj/item/storage/pouch/tools/tactical/full,
+/obj/item/weapon/gun/rifle/halo/br55,
 /turf/open/floor/strata/floor3,
-/area/space)
+/area/dark_was_the_night/armory)
+"KD" = (
+/obj/structure/closet/crate/secure/surgery{
+	req_access = list(8);
+	pixel_x = 0;
+	pixel_y = 11
+	},
+/obj/item/clothing/accessory/storage/surg_vest/blue/equipped,
+/obj/structure/phone_base{
+	phone_category = "UNSC Ship";
+	pixel_x = 0;
+	pixel_y = 30;
+	phone_id = "Emergency Medbay Office";
+	name = "Emergency Medbay Office"
+	},
+/turf/open/floor/strata/white_cyan4/north,
+/area/dark_was_the_night/medical)
 "KG" = (
 /obj/structure/surface/rack{
 	pixel_y = 19
@@ -1384,6 +3665,40 @@
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/dark_was_the_night/dorms)
+"KJ" = (
+/obj/structure/machinery/disposal{
+	pixel_x = -1;
+	pixel_y = 3
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo";
+	pixel_x = 1
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/briefing)
+"KO" = (
+/obj/structure/platform_decoration/strata/metal{
+	dir = 8
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 10
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/briefing)
+"KS" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1;
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor2,
+/area/dark_was_the_night/briefing)
 "KV" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -1392,18 +3707,12 @@
 /turf/open/floor/almayer/dark_sterile,
 /area/dark_was_the_night/dorms)
 "KW" = (
-/obj/structure/platform_decoration/strata/metal{
-	dir = 4
+/obj/structure/extinguisher_cabinet/alt{
+	pixel_x = 0;
+	pixel_y = 27
 	},
-/obj/effect/step_trigger/clone_cleaner,
-/obj/structure/machinery/light/small{
-	dir = 8;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 4
-	},
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/dark_was_the_night/upper_hallway)
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/briefing)
 "KY" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -1413,6 +3722,15 @@
 	},
 /turf/open/floor/strata/orange_edge,
 /area/dark_was_the_night/engineering)
+"Lc" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/armory)
 "Ln" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -1422,21 +3740,20 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/engineering)
-"LB" = (
-/obj/structure/bed,
-/obj/item/bedsheet/brown,
-/obj/structure/bed{
-	layer = 4.1;
-	pixel_y = 12
+"Ls" = (
+/turf/closed/wall/unsc,
+/area/dark_was_the_night/briefing)
+"Lz" = (
+/obj/structure/machinery/door/airlock/unsc{
+	autoname = 1;
+	dir = 1
 	},
-/obj/item/bedsheet/brown{
-	layer = 4.2;
-	pixel_y = 12
+/obj/structure/machinery/door/poddoor/almayer/closed{
+	name = "Armory Shutters";
+	id = "unsc_armory"
 	},
-/turf/open/floor/almayer/aicore{
-	icon_state = "w_ai_plates"
-	},
-/area/space)
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/armory)
 "LF" = (
 /turf/closed/wall/unsc,
 /area/dark_was_the_night/cryo_bay)
@@ -1457,6 +3774,10 @@
 	},
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/dark_was_the_night/cryo_hall)
+"LP" = (
+/obj/structure/machinery/door/airlock/unsc/prop,
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/cryo_bay)
 "LQ" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "2-8"
@@ -1465,17 +3786,35 @@
 /area/dark_was_the_night/engineering)
 "LY" = (
 /obj/structure/platform/strata/metal,
-/turf/open/floor/corsat,
+/turf/open/shuttle/escapepod/west,
 /area/dark_was_the_night/canteen)
+"Md" = (
+/obj/structure/surface/rack{
+	color = "#ffe6e6";
+	layer = 2.79
+	},
+/obj/item/ammo_box/magazine/unsc/ma5b{
+	pixel_x = 0;
+	pixel_y = 5
+	},
+/obj/item/ammo_box/magazine/unsc/ma5b/shredder{
+	pixel_x = 0;
+	pixel_y = 12
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo";
+	pixel_x = 1
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
 "Mf" = (
 /turf/open/floor/strata/multi_tiles/west,
 /area/dark_was_the_night/cryo_hall)
 "Mh" = (
-/obj/structure/cable/heavyduty/north_south,
 /obj/structure/platform/strata/metal{
 	dir = 8
 	},
-/turf/open/floor/corsat,
+/turf/open/shuttle/escapepod/north,
 /area/dark_was_the_night/canteen)
 "Mi" = (
 /obj/structure/janitorialcart,
@@ -1490,11 +3829,28 @@
 	dir = 8
 	},
 /obj/structure/platform/strata/metal,
-/turf/open/floor/corsat,
+/turf/open/shuttle/escapepod/west,
 /area/dark_was_the_night/canteen)
+"Mn" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/freezerfloor,
+/area/dark_was_the_night/canteen)
+"Mr" = (
+/obj/item/ammo_box/magazine/misc/unsc/medical_packets,
+/turf/open/space/basic,
+/area/space)
 "Mv" = (
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/canteen)
+"Mw" = (
+/obj/effect/step_trigger/clone_cleaner,
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/engineering)
 "Mx" = (
 /obj/effect/landmark/late_join,
 /obj/effect/landmark/late_join/alpha,
@@ -1512,6 +3868,14 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
+"MC" = (
+/obj/structure/machinery/door/airlock/unsc{
+	dir = 1;
+	name = "\improper Squad Leader Room";
+	req_access = list(12)
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
 "MG" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo"
@@ -1525,6 +3889,32 @@
 	pixel_y = 14
 	},
 /turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
+"MJ" = (
+/obj/effect/decal/unsc/infirmary{
+	pixel_x = -16;
+	pixel_y = -30
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/armory)
+"MY" = (
+/obj/structure/window/framed/unsc,
+/obj/structure/machinery/door/poddoor/almayer/closed{
+	name = "Armory Shutters";
+	id = "unsc_armory"
+	},
+/turf/open/floor/corsat,
+/area/dark_was_the_night/armory)
+"Na" = (
+/obj/structure/machinery/light/double{
+	dir = 1;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5;
+	invisibility = 100
+	},
+/obj/effect/landmark/observer_start,
+/turf/open/floor/strata/multi_tiles,
 /area/dark_was_the_night/cryo_bay)
 "Ne" = (
 /obj/structure/surface/table/reinforced/black,
@@ -1555,24 +3945,65 @@
 	dir = 1
 	},
 /area/dark_was_the_night/engineering)
-"NT" = (
-/obj/structure/bed,
-/obj/item/bedsheet/brown,
-/obj/structure/bed{
-	layer = 4.1;
-	pixel_y = 12
+"Nn" = (
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 1
 	},
-/obj/item/bedsheet/brown{
-	layer = 4.2;
-	pixel_y = 12
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/engineering)
+"Nu" = (
+/obj/structure/bed/chair/comfy/beige{
+	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
+"Ny" = (
+/obj/structure/closet/secure_closet/marine_personal/odst/corpsman{
+	pixel_x = -8
 	},
-/turf/open/floor/almayer/aicore{
-	icon_state = "w_ai_plates"
+/obj/structure/barricade/handrail/strata{
+	dir = 4;
+	pixel_x = -7;
+	pixel_y = 0
 	},
-/area/space)
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
+"NE" = (
+/obj/structure/surface/rack{
+	color = "#ffe6e6";
+	layer = 2.79
+	},
+/obj/item/storage/toolbox/traxus/alt{
+	pixel_x = 0;
+	pixel_y = 3
+	},
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 8
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
+"NF" = (
+/obj/structure/sign/safety/restrictedarea{
+	pixel_x = 14;
+	pixel_y = -27
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/cryo_hall)
+"NU" = (
+/obj/structure/machinery/atm{
+	pixel_y = 29;
+	pixel_x = 0
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/machinery/door/window/southleft,
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow";
+	dir = 1
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
 "Oc" = (
 /obj/item/device/radio/intercom{
 	freerange = 1;
@@ -1582,6 +4013,17 @@
 	},
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/dark_was_the_night/engineering)
+"Of" = (
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	name = "General Listening Channel";
+	pixel_y = 26
+	},
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/cryo_bay)
 "Oh" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -1592,9 +4034,57 @@
 	},
 /turf/open/floor/strata/floor2,
 /area/dark_was_the_night/engineering)
+"Oj" = (
+/obj/structure/bed/chair{
+	dir = 4;
+	pixel_x = 0;
+	pixel_y = 15
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor2,
+/area/dark_was_the_night/briefing)
+"Oo" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/armory)
+"Os" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/medical)
+"Ox" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/armory)
 "OD" = (
-/turf/open/floor/strata/multi_tiles,
-/area/space)
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/medical)
+"Pa" = (
+/obj/structure/closet/secure_closet/halo/job_locker/squad_leader{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/obj/item/device/binoculars/range/designator/sergeant,
+/obj/item/storage/belt/medical/unsc/full,
+/obj/item/storage/pouch/stimulant_injector/redemption,
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo";
+	pixel_x = 1
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
 "Ph" = (
 /obj/structure/stairs,
 /obj/structure/machinery/light/small{
@@ -1610,6 +4100,9 @@
 /turf/open/floor/corsat,
 /area/dark_was_the_night/canteen)
 "Po" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/upper_hallway)
 "Pt" = (
@@ -1620,6 +4113,14 @@
 	},
 /turf/open/floor/strata/floor2,
 /area/dark_was_the_night/engineering)
+"Pu" = (
+/obj/structure/bed/chair/comfy/bench/south/west{
+	color = "#ffe6e6";
+	pixel_x = 0;
+	pixel_y = 3
+	},
+/turf/open/floor/strata/floor2,
+/area/dark_was_the_night/cryo_bay)
 "Pw" = (
 /obj/structure/machinery/light/double{
 	dir = 4;
@@ -1630,6 +4131,32 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/canteen)
+"Pz" = (
+/obj/structure/machinery/door/airlock/multi_tile/unsc{
+	autoname = 1;
+	dir = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
+"PC" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4;
+	pixel_x = -3;
+	pixel_y = 4
+	},
+/obj/structure/noticeboard{
+	pixel_y = 4;
+	pixel_x = -31
+	},
+/obj/item/clothing/head/helmet/marine/sangheili/major{
+	pixel_x = -34;
+	pixel_y = -21;
+	anchored = 1;
+	icon = 'icons/halo/mob/humans/onmob/clothing/sangheili/hat.dmi';
+	dir = 4
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/armory)
 "PH" = (
 /turf/open/floor/strata/multi_tiles,
 /area/dark_was_the_night/canteen)
@@ -1667,33 +4194,41 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
-"Qg" = (
-/obj/structure/curtain/red{
-	pixel_y = 0;
-	pixel_x = 0
+"PQ" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
-/obj/structure/prop/invuln/overhead_pipe{
-	icon = 'icons/obj/structures/props/almayer_props.dmi';
-	icon_state = "wallpipe_2";
-	pixel_y = 13;
-	dir = 8;
-	pixel_x = -10
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/cryo_hall)
+"PY" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/machinery/faxmachine/unsc{
+	pixel_x = 0;
+	pixel_y = 3
 	},
-/obj/structure/prop/invuln/overhead_pipe{
-	icon = 'icons/obj/structures/props/almayer_props.dmi';
-	icon_state = "wallpipe_2";
-	pixel_y = 13;
-	dir = 8;
-	pixel_x = 11
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
-/turf/open/floor/corsat/marked,
-/area/space)
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/briefing)
+"Qa" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/briefing)
 "Qh" = (
 /turf/open/floor/strata/floor2,
 /area/dark_was_the_night/cryo_hall)
 "Qj" = (
 /obj/structure/window/framed/unsc,
 /turf/open/floor/corsat,
+/area/dark_was_the_night/cryo_bay)
+"Ql" = (
+/obj/structure/bed/chair/comfy/beige{
+	dir = 4
+	},
+/turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
 "Qm" = (
 /obj/structure/bed/chair/comfy/bench/mid/west{
@@ -1725,11 +4260,101 @@
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_hall)
 "QA" = (
-/obj/effect/decal/unsc/cryo{
-	dir = 1
+/obj/structure/machinery/prop/almayer/CICmap/table/segment/three{
+	pixel_x = 16;
+	density = 0
 	},
-/turf/open/floor/strata/multi_tiles/west,
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
+"QC" = (
+/obj/structure/stairs{
+	dir = 4
+	},
+/obj/effect/step_trigger/teleporter_vector{
+	vector_x = 13;
+	vector_y = -39;
+	name = "from_brif"
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/cryo_hall)
+"QI" = (
+/obj/structure/machinery/cm_vending/clothing/medic/unsc,
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/medical)
+"QK" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/briefing)
+"QU" = (
+/obj/structure/closet/secure_closet/marine_personal/odst/corpsman{
+	pixel_x = 8
+	},
+/obj/structure/barricade/handrail/strata{
+	dir = 8;
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
+"Rf" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#ffe6e6"
+	},
+/obj/item/storage/wallet/random{
+	pixel_x = 2;
+	pixel_y = 1
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/dorms)
+"Rm" = (
+/obj/structure/barricade/handrail/type_nv{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/dark_was_the_night/armory)
+"Rn" = (
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/pod_bay)
+"Rr" = (
+/obj/structure/closet/secure_closet/marine_personal/odst/squad_leader{
+	pixel_x = 8
+	},
+/obj/structure/closet/secure_closet/marine_personal/odst/rto{
+	pixel_x = -8
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
+"Rs" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/prop/almayer/CICmap{
+	pixel_x = 0;
+	pixel_y = 3
+	},
+/obj/structure/blocker/invisible_wall/directional,
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
+"Rv" = (
+/obj/structure/machinery/light/double{
+	dir = 4;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/armory)
+"Rw" = (
+/obj/structure/closet/secure_closet/halo/job_locker/weapons_spec/ft2,
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo";
+	pixel_x = 1
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
 "RA" = (
 /obj/structure/machinery/light/double{
 	dir = 4;
@@ -1743,6 +4368,18 @@
 "RB" = (
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/dark_was_the_night/cryo_hall)
+"RE" = (
+/turf/open/floor/strata/white_cyan2,
+/area/dark_was_the_night/medical)
+"RF" = (
+/obj/structure/machinery/light/double{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_bay)
 "RM" = (
 /obj/structure/surface/rack{
 	color = "#6b675e";
@@ -1786,24 +4423,39 @@
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/dorms)
 "SM" = (
-/obj/structure/machinery/light/small{
+/obj/structure/machinery/light/double{
 	dir = 4;
 	light_color = "#e7c0a4";
 	light_power = 0.8;
-	light_range = 4
+	light_range = 5
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/canteen)
 "Tf" = (
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/engineering)
+"Ti" = (
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/armory)
 "Tk" = (
-/obj/structure/cable/heavyduty/north_west_south,
-/turf/open/floor/corsat,
-/area/dark_was_the_night/cryo_bay)
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/upper_hallway)
+"Tm" = (
+/obj/item/weapon/gun/shotgun/pump/halo/m90/unloaded,
+/turf/open/space/basic,
+/area/space)
 "Tq" = (
-/obj/structure/cable/heavyduty/north_east_south,
-/turf/open/floor/corsat,
+/obj/structure/platform/strata/metal{
+	dir = 4
+	},
+/turf/open/shuttle/escapepod,
 /area/dark_was_the_night/cryo_bay)
 "Tr" = (
 /obj/structure/machinery/computer/crew/unsc/big{
@@ -1819,15 +4471,51 @@
 /area/dark_was_the_night/cryo_hall)
 "TC" = (
 /obj/structure/machinery/cm_vending/sorted/marine_food/unsc/alt,
-/turf/open/space/basic,
+/turf/open/floor/corsat/marked,
 /area/dark_was_the_night/canteen)
 "TD" = (
-/obj/structure/cable/heavyduty/west_south,
-/turf/open/floor/corsat,
-/area/dark_was_the_night/cryo_bay)
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/canteen)
+"TF" = (
+/obj/structure/machinery/prop/almayer/CICmap/table/segment/two{
+	pixel_x = -16;
+	density = 0
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
 "TO" = (
 /turf/open/floor/strata/floor2,
 /area/dark_was_the_night/engineering)
+"TY" = (
+/obj/structure/machinery/door/airlock/unsc/glass{
+	dir = 1;
+	autoname = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/cryo_bay)
+"Ue" = (
+/turf/open/floor/almayer_hull/outerhull_dir/southeast,
+/area/dark_was_the_night/pod_bay)
+"Uf" = (
+/obj/item/device/radio/intercom{
+	freerange = 1;
+	frequency = 1469;
+	name = "General Listening Channel";
+	pixel_x = -30
+	},
+/turf/open/floor/strata/purp3{
+	dir = 1
+	},
+/area/dark_was_the_night/medical)
+"Ui" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/dark_was_the_night/pod_bay)
 "Ul" = (
 /obj/effect/landmark/late_join,
 /obj/effect/landmark/late_join/alpha,
@@ -1841,6 +4529,19 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
+"Ur" = (
+/obj/structure/bed/chair/comfy/blue{
+	dir = 4;
+	pixel_x = -11;
+	pixel_y = 8
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/purp3{
+	dir = 1
+	},
+/area/dark_was_the_night/medical)
 "Ut" = (
 /obj/structure/sink{
 	pixel_y = 21
@@ -1851,6 +4552,12 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
+"UN" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/dark_was_the_night/upper_hallway)
 "UO" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -1869,6 +4576,18 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
+"UR" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 2
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 2
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/armory)
 "UZ" = (
 /obj/structure/barricade/handrail/strata,
 /obj/structure/machinery/light/double{
@@ -1879,41 +4598,120 @@
 	},
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/dark_was_the_night/canteen)
+"Vj" = (
+/obj/effect/step_trigger/clone_cleaner,
+/obj/structure/machinery/camera/autoname/golden_arrow{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/upper_hallway)
+"Vv" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/cryo_hall)
+"Vz" = (
+/obj/item/ammo_magazine/rifle/halo/br55,
+/turf/open/space/basic,
+/area/space)
 "VD" = (
 /turf/closed/wall/unsc/reinforced/hull,
 /area/dark_was_the_night/canteen)
 "VH" = (
-/obj/structure/grille/almayer,
-/obj/structure/cable/heavyduty/north_south,
+/obj/structure/prop/structure_lattice{
+	dir = 6
+	},
 /turf/open/floor/corsat,
 /area/dark_was_the_night/cryo_bay)
-"VJ" = (
-/turf/open/floor/strata/multi_tiles/west,
-/area/space)
-"VM" = (
-/obj/structure/surface/table/almayer,
-/turf/open/floor/almayer/aicore{
-	icon_state = "w_ai_plates"
+"VI" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
-/area/space)
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/armory)
+"VJ" = (
+/turf/closed/wall/unsc,
+/area/dark_was_the_night/pod_bay)
 "VU" = (
 /turf/open/floor/strata/white_cyan2,
 /area/dark_was_the_night/canteen)
+"VW" = (
+/turf/closed/wall/unsc/reinforced/hull,
+/area/dark_was_the_night/briefing)
+"Wb" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "W"
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/armory)
+"Wh" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/machinery/computer/emails{
+	pixel_x = 0;
+	pixel_y = 5
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"Wj" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/dark_was_the_night/armory)
+"Wn" = (
+/obj/structure/barricade/handrail/type_nv{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
 "Wy" = (
-/obj/structure/platform_decoration/strata/metal{
+/obj/structure/gun_rack/halo/armory/ma5b/unloaded,
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/armory)
+"WF" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/machinery/computer/cameras/wooden_tv/prop{
+	dir = 4;
+	layer = 3.2;
+	pixel_x = -15;
+	pixel_y = 2
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/canteen)
+"WG" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NE-out";
+	pixel_y = 0;
+	pixel_x = 1
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/armory)
+"WS" = (
+/obj/structure/machinery/camera/autoname/golden_arrow{
 	dir = 1
 	},
-/obj/effect/step_trigger/clone_cleaner,
-/obj/structure/machinery/light/small{
-	dir = 8;
-	light_color = "#e7c0a4";
-	light_power = 0.8;
-	light_range = 4
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
-/turf/open/floor/plating/plating_catwalk/strata,
-/area/dark_was_the_night/upper_hallway)
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/canteen)
 "Xm" = (
 /obj/structure/barricade/handrail/strata,
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/dark_was_the_night/canteen)
 "Xo" = (
@@ -1960,8 +4758,49 @@
 	pixel_x = 9;
 	pixel_y = 5
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
 /turf/open/floor/strata/white_cyan1,
 /area/dark_was_the_night/canteen)
+"Xx" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/device/mass_spectrometer{
+	pixel_x = -7;
+	pixel_y = 3
+	},
+/obj/item/reagent_container/dropper{
+	pixel_x = 10;
+	pixel_y = -2
+	},
+/obj/item/storage/pouch/chem{
+	pixel_x = 14;
+	pixel_y = 11
+	},
+/turf/open/floor/strata/purp1,
+/area/dark_was_the_night/medical)
+"XJ" = (
+/obj/structure/machinery/light/double{
+	dir = 1;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
+	},
+/turf/open/floor/almayer_hull/outerhull_dir/southeast,
+/area/dark_was_the_night/pod_bay)
+"XK" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles,
+/area/dark_was_the_night/cryo_hall)
+"XP" = (
+/obj/structure/machinery/door/airlock/unsc/glass{
+	req_access = list(8);
+	name = "\improper Chemistry"
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/medical)
 "XQ" = (
 /obj/structure/stairs,
 /obj/structure/barricade/handrail/type_nv{
@@ -1969,6 +4808,14 @@
 	},
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/canteen)
+"XX" = (
+/obj/structure/machinery/door/airlock/unsc/glass{
+	dir = 1;
+	req_access = list(8,39);
+	autoname = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/medical)
 "Yd" = (
 /obj/effect/landmark/late_join,
 /obj/effect/landmark/late_join/alpha,
@@ -1982,13 +4829,95 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
-"Yl" = (
-/obj/structure/cable/heavyduty/north_south,
-/obj/structure/platform/strata/metal{
-	dir = 8;
-	layer = 3.01
+"Ye" = (
+/obj/structure/machinery/light/double{
+	dir = 4;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 5
 	},
-/turf/open/floor/corsat,
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/briefing)
+"Yl" = (
+/turf/closed/wall/unsc/reinforced/hull,
+/area/dark_was_the_night/armory)
+"Yp" = (
+/obj/structure/machinery/telecomms/relay/preset/tower,
+/turf/open/floor/almayer,
+/area/dark_was_the_night)
+"Yq" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/strata/floor2,
+/area/dark_was_the_night/briefing)
+"Ys" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "SE-out";
+	pixel_x = 1;
+	pixel_y = 0
+	},
+/obj/effect/step_trigger/clone_cleaner,
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/cryo_hall)
+"Yu" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning";
+	pixel_y = 0;
+	dir = 8;
+	pixel_x = -2
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"Yv" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/structure/machinery/computer/overwatch/almayer{
+	pixel_y = 28;
+	faction = "UNSC"
+	},
+/obj/item/tool/signal_tracker{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/briefing)
+"YB" = (
+/obj/structure/machinery/disposal{
+	pixel_x = -1;
+	pixel_y = 3
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/upper_hallway)
+"YC" = (
+/obj/structure/prop/ice_colony/dense/planter_box{
+	dir = 9
+	},
+/obj/structure/flora/bush/desert{
+	pixel_y = 9;
+	pixel_x = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
+"YJ" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "NW-out";
+	pixel_y = 1;
+	pixel_x = 0
+	},
+/turf/open/floor/strata/floor3,
 /area/dark_was_the_night/canteen)
 "YN" = (
 /obj/structure/stairs,
@@ -2017,10 +4946,25 @@
 "YY" = (
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/dorms)
+"Za" = (
+/obj/structure/machinery/chem_dispenser/medbay,
+/turf/open/floor/strata/purp1,
+/area/dark_was_the_night/medical)
 "Zh" = (
-/obj/structure/cable/heavyduty/north_east,
+/obj/structure/grille,
 /turf/open/floor/corsat,
 /area/dark_was_the_night/cryo_bay)
+"Zi" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/canteen)
+"Zo" = (
+/obj/structure/gun_rack/halo/armory/ma5c/unloaded,
+/turf/open/space/basic,
+/area/space)
 "Zq" = (
 /obj/structure/window/framed/unsc,
 /obj/structure/machinery/door/poddoor/almayer/open{
@@ -2049,6 +4993,61 @@
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/cryo_bay)
+"ZE" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning";
+	dir = 1;
+	pixel_y = 2
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/cryo_bay)
+"ZF" = (
+/obj/structure/surface/table/reinforced/black,
+/obj/item/reagent_container/glass/beaker/noreact{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/item/pamphlet/skill/chem{
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/turf/open/floor/strata/purp1,
+/area/dark_was_the_night/medical)
+"ZM" = (
+/obj/item/ammo_box/magazine/unsc/small/m6c/socom{
+	pixel_x = 0
+	},
+/turf/open/space/basic,
+/area/space)
+"ZO" = (
+/obj/structure/machinery/door/airlock/unsc/glass{
+	dir = 4;
+	autoname = 1
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/briefing)
+"ZS" = (
+/obj/structure/platform/strata/metal{
+	dir = 1
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/briefing)
+"ZU" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning";
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 0
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"ZV" = (
+/obj/item/ammo_magazine/rifle/halo/ma5b,
+/turf/open/space/basic,
+/area/space)
 "ZW" = (
 /obj/item/tool/mop{
 	pixel_x = 11;
@@ -2057,6 +5056,9 @@
 /obj/item/stool{
 	pixel_x = 16;
 	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
 /turf/open/floor/freezerfloor,
 /area/dark_was_the_night/canteen)
@@ -2089,46 +5091,11 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+sh
+an
+sh
+gz
 fF
 fF
 fF
@@ -2190,48 +5157,13 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+gz
+iP
+fq
+op
+gz
+gz
 fF
 fF
 fF
@@ -2292,48 +5224,13 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+dL
+wW
+ud
+eY
+dL
+gz
 fF
 fF
 fF
@@ -2393,50 +5290,15 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+gz
+XJ
+iP
+Rn
+op
+Dq
+gz
+gz
 fF
 fF
 fF
@@ -2495,50 +5357,15 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+sM
+iP
+op
+Rn
+iP
+iP
+As
+gz
 fF
 fF
 fF
@@ -2597,50 +5424,15 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+dL
+wW
+eY
+Ui
+wW
+wW
+dL
+gz
 fF
 fF
 fF
@@ -2699,50 +5491,15 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+Ue
+iP
+op
+fq
+iP
+iP
+Gc
+gz
 fF
 fF
 fF
@@ -2801,50 +5558,15 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+VJ
+VJ
+jJ
+fq
+dv
+VJ
+VJ
+gz
 fF
 fF
 fF
@@ -2884,6 +5606,15 @@ fF
 (9,1,1) = {"
 fF
 fF
+lk
+lk
+lk
+lk
+lk
+lk
+lk
+lk
+lk
 fF
 fF
 fF
@@ -2894,59 +5625,15 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+VJ
+dL
+wW
+Ui
+eY
+dL
+VJ
+gz
 fF
 fF
 fF
@@ -2986,10 +5673,15 @@ fF
 (10,1,1) = {"
 fF
 fF
+lk
 fF
 fF
 fF
 fF
+tO
+dq
+eT
+lk
 fF
 fF
 fF
@@ -2999,57 +5691,17 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+gz
+eC
+Ue
+op
+fq
+op
+Gc
+eC
+gz
+gz
 fF
 fF
 fF
@@ -3088,10 +5740,15 @@ fF
 (11,1,1) = {"
 fF
 fF
+lk
 fF
 fF
 fF
 fF
+Zo
+Gw
+oo
+lk
 fF
 fF
 fF
@@ -3101,57 +5758,17 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+dL
+eY
+eY
+wW
+ud
+wW
+eY
+eY
+dL
+gz
 fF
 fF
 fF
@@ -3190,6 +5807,7 @@ fF
 (12,1,1) = {"
 fF
 fF
+lk
 fF
 fF
 fF
@@ -3197,6 +5815,7 @@ fF
 fF
 fF
 fF
+lk
 fF
 fF
 fF
@@ -3206,54 +5825,17 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+wK
+op
+iP
+iP
+Rn
+iP
+op
+op
+gH
+gz
 fF
 fF
 fF
@@ -3292,7 +5874,15 @@ fF
 (13,1,1) = {"
 fF
 fF
+lk
+le
+Vz
+zn
 fF
+Ku
+ZV
+nT
+lk
 fF
 fF
 fF
@@ -3302,60 +5892,17 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+dL
+wW
+wW
+wW
+Ui
+wW
+eY
+wW
+dL
+gz
 fF
 fF
 fF
@@ -3394,7 +5941,15 @@ fF
 (14,1,1) = {"
 fF
 fF
+lk
+rN
+eH
+Jr
 fF
+pN
+Fa
+eK
+lk
 fF
 fF
 fF
@@ -3404,60 +5959,17 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+gz
+wa
+sM
+op
+Rn
+iP
+As
+wa
+gz
+gz
 fF
 fF
 fF
@@ -3496,6 +6008,15 @@ fF
 (15,1,1) = {"
 fF
 fF
+lk
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+lk
 fF
 fF
 fF
@@ -3506,59 +6027,15 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+gz
+dL
+op
+fq
+iP
+dL
+gz
+gz
 fF
 fF
 fF
@@ -3598,6 +6075,15 @@ fF
 (16,1,1) = {"
 fF
 fF
+lk
+Tm
+fF
+fF
+fF
+ZM
+wI
+Mr
+lk
 fF
 fF
 fF
@@ -3609,57 +6095,13 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+XJ
+wW
+Ui
+wW
+Dq
+gz
 fF
 fF
 fF
@@ -3700,6 +6142,15 @@ fF
 (17,1,1) = {"
 fF
 fF
+lk
+mi
+DI
+fF
+fF
+fF
+qL
+fF
+lk
 fF
 fF
 fF
@@ -3711,57 +6162,13 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+gz
+VJ
+iP
+fq
+iP
+VJ
+gz
 fF
 fF
 fF
@@ -3802,6 +6209,15 @@ fF
 (18,1,1) = {"
 fF
 fF
+lk
+lk
+lk
+lk
+lk
+lk
+lk
+lk
+lk
 fF
 fF
 fF
@@ -3810,63 +6226,19 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+Yl
+Yl
+Yl
+Yl
+tT
+tT
+vI
+tT
+tT
+Yl
+Yl
+Yl
+Yl
 fF
 fF
 fF
@@ -3920,55 +6292,20 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+Yl
+Yl
+ET
+CE
+Wy
+tT
+wo
+lE
+fh
+tT
+kH
+PC
+xt
+Yl
 fF
 fF
 fF
@@ -4008,69 +6345,34 @@ fF
 fF
 fF
 fF
+ws
+ws
+ws
 fF
 fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+VW
+VW
+pf
+wO
+VW
+VW
+Yl
+uE
+yg
+Kr
+Kr
+Kr
+Kr
+Wj
+VI
+ft
+Kr
+iX
+Kr
+Yl
 fF
 fF
 fF
@@ -4109,70 +6411,35 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+VW
+dx
+hO
+dx
+VW
+VW
+VW
+VW
+VW
+VW
+gE
+BQ
+BQ
+DJ
+Ls
+Ls
+Md
+bP
+UR
+fh
+qv
+bP
+du
+fh
+tT
+Pa
+Rv
+JC
+Yl
 fF
 fF
 fF
@@ -4210,71 +6477,36 @@ fF
 (22,1,1) = {"
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+VW
+VW
+Bo
+QK
+kz
+Ls
+KO
+is
+Qa
+Hz
+yt
+is
+Bf
+os
+os
+os
+Ls
+xf
+xf
+xf
+xf
+WG
+Kr
+iX
+CD
+tT
+tT
+tT
+tT
+Yl
 fF
 fF
 fF
@@ -4310,74 +6542,39 @@ fF
 fF
 "}
 (23,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+VW
+VW
+VW
+xi
+Yq
+tG
+BQ
+eO
+rb
+QK
+jW
+jW
+jW
+tG
+Bf
+fD
+QA
+qy
+Ls
+ZU
+ZU
+ZU
+GK
+tT
+Jj
+du
+sK
+tT
+Wh
+wz
+hY
+Yl
+Yl
 fF
 fF
 fF
@@ -4412,74 +6609,39 @@ fF
 fF
 "}
 (24,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+VW
+su
+nh
+AB
+hr
+EV
+sa
+Rs
+ZS
+HI
+YC
+YC
+YC
+HI
+Bf
+qj
+qj
+Ch
+Ls
+zL
+JR
+JR
+zL
+tT
+bY
+iX
+Kr
+yQ
+Kr
+iX
+Kr
+pi
+Yl
 fF
 fF
 fF
@@ -4514,74 +6676,39 @@ fF
 fF
 "}
 (25,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+VW
+VW
+VW
+zc
+KS
+QK
+sa
+oX
+ZS
+tG
+rS
+jW
+xx
+tG
+Bf
+gd
+Jl
+TF
+Ls
+dJ
+Yu
+dJ
+dJ
+tT
+Je
+du
+EG
+tT
+Eq
+du
+hS
+tT
+Yl
 fF
 fF
 fF
@@ -4618,74 +6745,39 @@ fF
 (26,1,1) = {"
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+VW
+VW
+iW
+ht
+aw
+Ls
+de
+is
+Qa
+Ye
+Qa
+is
+Bf
+Bf
+os
+os
+Ls
+Lc
+Wb
+Lc
+Lc
+Oo
+Kr
+iX
+ml
+CH
+CH
+CH
+CH
+CH
+he
+he
+he
 fF
 fF
 fF
@@ -4721,74 +6813,39 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+VW
+VW
+VW
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+Ls
+KW
+sa
+BQ
+QK
+Ls
+Ls
+BY
+us
+mL
+Wn
+UR
+bP
+lE
+fh
+fC
+CH
+Gl
+FW
+vG
+CH
+un
+he
+he
 fF
 fF
 fF
@@ -4825,72 +6882,37 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+VW
+Ls
+qs
+DT
+KJ
+Ls
+Ls
+Ls
+Ls
+pf
+Pz
+Ls
+Ls
+Ls
+tT
+cS
+Fd
+Fd
+tT
+xe
+lE
+fh
+bP
+jT
+sk
+RE
+IA
+XX
+Os
+QI
+he
 fF
 fF
 fF
@@ -4927,72 +6949,37 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+VW
+Yv
+Oj
+is
+Qa
+MC
+Mf
+yw
+PQ
+XK
+XK
+Mf
+qT
+PQ
+Lz
+zB
+Rm
+vS
+Kr
+VI
+Wj
+Kr
+MJ
+jT
+sk
+cj
+qg
+CH
+Aa
+CH
+he
 fF
 fF
 fF
@@ -5029,72 +7016,37 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+VW
+bW
+sa
+QK
+Df
+rg
+oc
+dj
+Ys
+fy
+Er
+EZ
+Fb
+dF
+MY
+bP
+lE
+Ea
+cl
+fh
+lE
+bP
+bP
+jT
+Gi
+cj
+cy
+EK
+OD
+QI
+he
 fF
 fF
 fF
@@ -5131,72 +7083,37 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+VW
+VW
+Gv
+QK
+PY
+VW
+er
+er
+jo
+IB
+wc
+jo
+er
+er
+Yl
+yv
+du
+bP
+bP
+bP
+lE
+bP
+Ti
+CH
+KD
+dO
+tr
+CH
+sI
+he
+he
 fF
 fF
 fF
@@ -5234,70 +7151,35 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+VW
+VW
+ZO
+VW
+VW
+fF
+fF
+jo
+QC
+QC
+jo
+fF
+fF
+Yl
+tT
+bG
+tT
+tT
+dB
+rk
+Kz
+CH
+CH
+CH
+XP
+CH
+CH
+he
+he
 fF
 fF
 fF
@@ -5337,68 +7219,33 @@ fF
 fF
 fF
 fF
+VW
+EW
+VW
 fF
 fF
 fF
+jo
+jo
+jo
+jo
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+Yl
+Yl
+aP
+lE
+uZ
+tT
+Yl
+Yl
+Yl
+he
+Za
+Uf
+OD
+ke
+Xx
+he
 fF
 fF
 fF
@@ -5439,6 +7286,9 @@ fF
 fF
 fF
 fF
+VW
+VW
+VW
 fF
 fF
 fF
@@ -5447,60 +7297,22 @@ fF
 fF
 fF
 fF
+Yl
+ky
+Kr
+rc
+VI
+Rw
+Yl
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+he
+ei
+Ur
+Os
+pl
+ZF
+he
 fF
 fF
 fF
@@ -5552,57 +7364,22 @@ fF
 fF
 fF
 fF
+Yl
+Yl
+Ox
+du
+DH
+Yl
+Yl
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+he
+he
+ka
+kI
+mx
+he
+he
 fF
 fF
 fF
@@ -5655,55 +7432,20 @@ fF
 fF
 fF
 fF
+Yl
+Yl
+jc
+Yl
+Yl
 fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+he
+he
+he
+he
+he
 fF
 fF
 fF
@@ -5758,44 +7500,9 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+Yl
+GY
+Yl
 fF
 fF
 fF
@@ -5860,6 +7567,9 @@ fF
 fF
 fF
 fF
+Yl
+Yl
+Yl
 fF
 fF
 fF
@@ -5873,46 +7583,8 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+ws
+ws
 fF
 fF
 fF
@@ -5977,45 +7649,10 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+vb
+js
+LP
+vb
 fF
 fF
 fF
@@ -6072,53 +7709,18 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+vb
+vb
+vb
+vb
+vb
+vb
+vb
+vb
+sO
+oV
+vb
+vb
 fF
 fF
 fF
@@ -6174,59 +7776,24 @@ fF
 fF
 fF
 fF
+vb
+LF
+Of
+BR
+AO
+qY
+LF
+NU
+eo
+kc
+Ql
+vb
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+VD
+Kv
+VD
 fF
 fF
 fF
@@ -6265,70 +7832,35 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+vb
+vb
+vb
+vb
+vb
+vb
+vb
+vb
+fF
+fF
+fF
+vb
+Ny
+FS
+lz
+lz
+ep
+TY
+mD
+mD
+ep
+BN
+vb
+fF
+fF
+fF
+VD
+HR
+VD
 fF
 fF
 fF
@@ -6367,80 +7899,45 @@ fF
 fF
 fF
 fF
+vb
+LF
+Zh
+VH
+VH
+Zh
+LF
+vb
 fF
 fF
 fF
+vb
+Rr
+ZE
+da
+Pu
+eo
+Qj
+eo
+eo
+kc
+ob
+vb
 fF
 fF
+VD
+VD
+HR
+VD
+VD
 fF
 fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+BS
+BS
+BS
+BS
 fF
 fF
 fF
@@ -6469,86 +7966,51 @@ fF
 fF
 fF
 fF
+vb
+gD
+qN
+LF
+LF
+qN
+pw
+vb
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+vb
+QU
+FS
+ps
+ps
+ep
+TY
+mD
+mD
+ep
+Nu
+vb
+ws
 VD
-Kv
+VD
+pe
+HR
+pe
+VD
 VD
 fF
 fF
 fF
 fF
+BS
+hz
+hz
+BS
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+yL
+hq
+yL
+hq
+yL
 fF
 fF
 fF
@@ -6571,86 +8033,51 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 vb
-vb
-vb
-vb
-vb
-vb
-vb
+ph
+LF
+LF
+LF
+LF
+CK
 vb
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+vb
+LF
+hm
+oz
+uo
+cQ
+LF
+lM
+eo
+kc
+NE
+vb
 fF
 VD
-HR
+Ej
+Mh
+Hq
+Mh
+GN
 VD
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+yL
+yL
+BS
+wM
+wM
+BS
+yL
+yL
+nB
+kn
+Tk
+yL
 fF
 fF
 fF
@@ -6673,330 +8100,8 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-vb
-LF
-gz
-fq
-VH
-Zh
-LF
-vb
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-VD
-VD
-HR
-VD
-VD
-fF
-fF
-fF
-fF
-fF
-BS
-BS
-BS
-BS
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(47,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-vb
-gD
-qN
-LF
-LF
-Tk
-pw
-vb
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-VD
-VD
-pe
-HR
-pe
-VD
-VD
-fF
-fF
-fF
-fF
-BS
-wM
-wM
-BS
-fF
-yL
-hq
-yL
-hq
-yL
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(48,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-vb
-fE
-LF
-LF
-LF
-LF
-fE
-vb
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-VD
-Ej
-Yl
-Hq
-Mh
-GN
-VD
-fF
-fF
-yL
-yL
-BS
-wM
-wM
-BS
-yL
-yL
-nB
-kn
-nB
-yL
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(49,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 HE
-qN
+ph
 LF
 LF
 LF
@@ -7007,16 +8112,16 @@ vb
 vb
 vb
 vb
-vb
-vb
-vb
-vb
-vb
-vb
-er
+LF
+LF
+LF
+LF
+LF
+LF
+LF
 vK
 vp
-er
+LF
 VD
 VD
 VD
@@ -7029,57 +8134,22 @@ VD
 VD
 yL
 yL
-vO
-KW
-AJ
-AJ
-Wy
+vN
+nS
+nR
+nR
+Jk
 vO
 YO
 nB
-sK
-AJ
+Ba
+Vj
 BS
 BS
 BS
 BS
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 "}
-(50,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(47,1,1) = {"
 fF
 fF
 fF
@@ -7111,7 +8181,7 @@ LF
 LF
 nV
 wk
-wk
+RF
 wk
 jn
 LF
@@ -7121,67 +8191,32 @@ RB
 Ex
 Ex
 Ex
-RO
-RO
-RO
+TD
+TD
+WF
 cT
-RO
+WF
 RO
 RO
 Ex
 Ex
 kA
 mk
-gm
-mk
+jV
+UN
 xV
 gm
-gm
+jV
 jD
-mk
-sK
+UN
+Ba
 ZZ
 sA
 gc
 nO
 BS
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 "}
-(51,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(48,1,1) = {"
 fF
 fF
 fF
@@ -7218,72 +8253,37 @@ mD
 ep
 UO
 LF
-jT
+EX
 HD
 Ex
 LY
-RO
+lg
 PH
-yp
-yp
+cr
+cr
 yp
 yp
 yp
 PH
-RO
+TD
 Ex
-sK
-nB
+Ba
+Tk
 Po
 Ep
 Ep
 SD
 Ep
 Ep
-nB
+Tk
 jx
 AJ
 BS
 BS
 BS
 BS
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 "}
-(52,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(49,1,1) = {"
 fF
 fF
 fF
@@ -7320,26 +8320,26 @@ pR
 kc
 eu
 LF
-oc
-RB
+ya
+Vv
 Pj
 yC
-RO
+JA
 Ab
 SM
-AH
+ix
 Qm
 wr
 SM
-Ab
-RO
+gM
+WS
 Ex
 Ge
 nB
 Ep
 Ep
 bI
-wd
+GQ
 hu
 Kn
 hq
@@ -7349,43 +8349,8 @@ yL
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 "}
-(53,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(50,1,1) = {"
 fF
 fF
 fF
@@ -7409,85 +8374,50 @@ LF
 Mx
 lX
 mD
-iq
+Na
 mD
 Xo
 hw
 GP
-QA
-eY
+mD
+ep
 LF
 LF
 LF
-rB
+ep
 mD
 GP
-Mf
+PQ
 Cb
 pM
 YN
-yp
+Zi
 tY
 Ex
-Ck
-Ck
+mP
+nK
 Ck
 Ex
 sz
-yp
+cr
 pM
-gm
-mk
+jV
+UN
 Ep
 aK
-YY
-wd
-YY
-Ep
-sI
-sI
-sI
-sI
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+BG
+GQ
+jz
+Kn
+Kn
+Kn
+Kn
+Kn
 fF
 fF
 fF
 "}
-(54,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(51,1,1) = {"
 fF
 fF
 fF
@@ -7517,79 +8447,44 @@ PK
 xn
 fN
 mD
-eY
+ep
 LF
 LF
 LF
-rB
+ep
 mD
 fN
-Mf
+PQ
 Cb
 Mv
 XQ
-yp
+Zi
 PH
 Ex
-Ck
-Ck
-Ck
+it
+Ic
+uD
 Ex
 PH
-yp
+cr
 Mv
-gm
-mk
+jV
+UN
 Ep
 bA
 YY
 wd
-YY
+zs
 Ep
-KD
-jd
-FW
-sI
-sI
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+vW
+vm
+uq
+Kn
+Kn
 fF
 fF
 "}
-(55,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(52,1,1) = {"
 fF
 fF
 fF
@@ -7630,7 +8525,7 @@ oc
 RB
 Pj
 Mk
-RO
+YJ
 Ab
 rK
 AH
@@ -7641,57 +8536,22 @@ Ab
 RO
 Ex
 Ge
-nB
+Tk
 Ep
 hI
 YY
-EJ
-IP
+yj
+jO
 PJ
-VJ
-OD
-VJ
-vI
-sI
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+IP
+yj
+jO
+xu
+Kn
 fF
 fF
 "}
-(56,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(53,1,1) = {"
 fF
 fF
 fF
@@ -7728,33 +8588,37 @@ mD
 ep
 MG
 LF
-jT
+bZ
 HD
 Ex
 LY
 RO
 PH
 yp
-yp
+cr
 yp
 yp
 yp
 PH
 RO
 Ex
-sK
-nB
+Ba
+Tk
 Ep
 hJ
-YY
-EJ
+BG
+yj
 IP
 jv
-VJ
-OD
-VJ
-vI
-sI
+IP
+EJ
+jO
+Rf
+Kn
+fF
+fF
+"}
+(54,1,1) = {"
 fF
 fF
 fF
@@ -7769,6 +8633,184 @@ fF
 fF
 fF
 fF
+fF
+fF
+fF
+vb
+vb
+LF
+LF
+LF
+LF
+yJ
+LF
+LF
+LF
+LF
+LF
+ZB
+pR
+Jz
+pR
+RM
+LF
+LF
+dF
+NF
+Ex
+Ex
+Ex
+xo
+TD
+TD
+TD
+RO
+RO
+RO
+Ex
+Ex
+YB
+nB
+Ep
+Ep
+fw
+GQ
+mO
+Ep
+HU
+eJ
+HU
+Kn
+Kn
+fF
+fF
+"}
+(55,1,1) = {"
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+HE
+fE
+LF
+LF
+LF
+LF
+CK
+vb
+vb
+vb
+vb
+vb
+vb
+vb
+vb
+vb
+vb
+vb
+er
+Zq
+Hs
+uu
+Ex
+Ex
+Ex
+Ex
+mC
+mg
+nw
+Ex
+Ex
+Ex
+Ex
+Ex
+fV
+Ep
+iV
+YY
+wd
+dW
+Kn
+Kn
+Kn
+Kn
+Kn
+fF
+fF
+fF
+"}
+(56,1,1) = {"
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+vb
+fE
+LF
+LF
+LF
+LF
+CK
+vb
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+er
+Qw
+LK
+LM
+uu
+Ex
+Ex
+Ex
+Ax
+RO
+TD
+RO
+br
+Ex
+vP
+fp
+Ex
+Ex
+Ep
+xB
+YY
+wd
+dl
+Kn
 fF
 fF
 fF
@@ -7795,83 +8837,48 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 vb
+hW
+Tq
+LF
+LF
+Tq
+Hr
 vb
-LF
-LF
-LF
-LF
-Qj
-LF
-LF
-LF
-LF
-LF
-ZB
-pR
-pR
-pR
-RM
-LF
-LF
-oc
-RB
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+fF
+er
+Tr
+Xq
+Cb
+Ad
 Ex
 Ex
-Ex
+xZ
+qt
 RO
-RO
-RO
-RO
-RO
-RO
-RO
-Ex
-Ex
-Po
-nB
-Ep
-Ep
-fw
-wd
-YY
-Ep
-hY
+oA
 jd
-hY
-sI
-sI
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+RO
+Pj
+Kp
+Kp
+Xt
+Ex
+Ep
+Ep
+Ep
+yN
+Ep
+Kn
+Kn
 fF
 fF
 fF
@@ -7897,334 +8904,12 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-HE
+vb
+LF
 Zh
-LF
-LF
-LF
-LF
-CK
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-er
-Zq
-Hs
-uu
-Ex
-Ex
-Ex
-Ex
-mC
-Mv
-nw
-Ex
-Ex
-Ex
-Ex
-Ex
-fV
-Ep
-iV
-YY
-wd
-YY
-Ep
-sI
-sI
-sI
-sI
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(59,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-vb
-fE
-LF
-LF
-LF
-LF
-fE
-vb
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-er
-Qw
-LK
-LM
-uu
-Ex
-Ex
-Ex
-Ax
-RO
-RO
-RO
-br
-Ex
-vP
-fp
-Ex
-Ex
-Ep
-xB
-YY
-wd
-YY
-Ep
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(60,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-vb
-hW
-Zh
-LF
-LF
-Tq
-Hr
-vb
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-er
-Tr
-Xq
-Cb
-Ad
-Ex
-Ex
-xZ
-qt
-RO
-eC
-eC
-RO
-Pj
-Dj
-Dj
-Xt
-Ex
-Ep
-Ep
-Ep
-yN
-Ep
-Kn
-Kn
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(61,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-vb
-LF
-TD
-fq
 VH
-qN
+VH
+Zh
 LF
 vb
 fF
@@ -8250,8 +8935,8 @@ Ab
 yp
 RO
 ad
-VU
-VU
+Fu
+Fu
 pA
 Ex
 Ep
@@ -8267,43 +8952,8 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 "}
-(62,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(59,1,1) = {"
 fF
 fF
 fF
@@ -8347,14 +8997,14 @@ VD
 VD
 TC
 Xm
-RO
+TD
 yp
 Ab
 RO
 Qn
 VU
-VU
-Dj
+Fu
+Kp
 Ex
 Ep
 AA
@@ -8369,43 +9019,8 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 "}
-(63,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(60,1,1) = {"
 fF
 fF
 fF
@@ -8449,9 +9064,9 @@ fF
 VD
 TC
 qf
-RO
-eC
-eC
+TD
+ev
+JE
 RO
 Pj
 Dj
@@ -8471,43 +9086,8 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 "}
-(64,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(61,1,1) = {"
 fF
 fF
 fF
@@ -8551,10 +9131,10 @@ fF
 VD
 VD
 fR
-RO
-RO
+TD
+TD
 Pw
-RO
+hQ
 Ex
 fz
 Qq
@@ -8573,43 +9153,8 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 "}
-(65,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(62,1,1) = {"
 fF
 fF
 fF
@@ -8624,7 +9169,7 @@ FU
 FU
 FU
 fu
-tg
+bH
 eA
 eA
 eA
@@ -8675,43 +9220,8 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 "}
-(66,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(63,1,1) = {"
 fF
 fF
 fF
@@ -8725,8 +9235,8 @@ yq
 yi
 yi
 uU
-lJ
-Tf
+Mw
+Nn
 eA
 JP
 KY
@@ -8738,9 +9248,9 @@ rV
 Gt
 FU
 fF
-fF
-fF
-fF
+rB
+rB
+rB
 fF
 fF
 fF
@@ -8760,29 +9270,10 @@ fF
 fF
 VD
 ck
-IJ
+Mn
 IJ
 Ex
 VD
-fF
-nU
-nU
-nU
-nU
-nU
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 fF
 fF
 fF
@@ -8797,23 +9288,7 @@ fF
 fF
 fF
 "}
-(67,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(64,1,1) = {"
 fF
 fF
 fF
@@ -8840,9 +9315,9 @@ iy
 hi
 FU
 fF
-fF
-fF
-fF
+rB
+Yp
+rB
 fF
 fF
 fF
@@ -8867,25 +9342,6 @@ ZW
 jX
 VD
 fF
-nU
-LB
-VM
-NT
-nU
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 fF
 fF
 fF
@@ -8899,23 +9355,7 @@ fF
 fF
 fF
 "}
-(68,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(65,1,1) = {"
 fF
 fF
 fF
@@ -8930,7 +9370,7 @@ sP
 sP
 If
 lJ
-Tf
+xw
 eA
 Mi
 LQ
@@ -8942,9 +9382,9 @@ ow
 Nh
 FU
 fF
-fF
-fF
-fF
+rB
+rB
+rB
 fF
 fF
 fF
@@ -8964,29 +9404,10 @@ fF
 fF
 VD
 Xs
-IJ
+Mn
 oy
 VD
 VD
-fF
-Qg
-cg
-cg
-cg
-nU
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 fF
 fF
 fF
@@ -9001,23 +9422,7 @@ fF
 fF
 fF
 "}
-(69,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(66,1,1) = {"
 fF
 fF
 fF
@@ -9071,25 +9476,6 @@ VD
 VD
 fF
 fF
-nU
-cg
-cg
-cg
-nU
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 fF
 fF
 fF
@@ -9103,23 +9489,7 @@ fF
 fF
 fF
 "}
-(70,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(67,1,1) = {"
 fF
 fF
 fF
@@ -9173,25 +9543,6 @@ fF
 fF
 fF
 fF
-nU
-nU
-nU
-nU
-nU
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 fF
 fF
 fF
@@ -9205,23 +9556,7 @@ fF
 fF
 fF
 "}
-(71,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
+(68,1,1) = {"
 fF
 fF
 fF
@@ -9238,2983 +9573,6 @@ FU
 wj
 dA
 FU
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-nU
-cg
-cg
-cg
-nU
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(72,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-Qg
-cg
-cg
-cg
-nU
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(73,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-nU
-NT
-VM
-NT
-nU
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(74,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-nU
-nU
-nU
-nU
-nU
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(75,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(76,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(77,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(78,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(79,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(80,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(81,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(82,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(83,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(84,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(85,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(86,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(87,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(88,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(89,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(90,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(91,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(92,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(93,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(94,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(95,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(96,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(97,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(98,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(99,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-"}
-(100,1,1) = {"
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
-fF
 fF
 fF
 fF

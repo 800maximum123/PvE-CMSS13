@@ -119,3 +119,10 @@
 	secondary_skill = SKILL_RESEARCH
 	secondary_skill_cap = 3
 	skill_increment = 3
+
+/datum/character_trait/skills/chem
+	trait_name = "Chemistry Training"
+	trait_desc = "Boosts the chemistry skill. Crewmember received training in chemistry."
+	skill = SKILL_MEDICAL
+	skill_increment = 3
+	skill_cap = 3
