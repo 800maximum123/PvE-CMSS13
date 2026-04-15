@@ -9,7 +9,7 @@
 		to_chat(usr, SPAN_WARNING("A mode hasn't been selected yet!"))
 		return
 
-	var/list/selectable_faction = list(FACTION_MARINE, FACTION_UPP)
+	var/list/selectable_faction = list(FACTION_MARINE, FACTION_UPP, FACTION_UNSC)
 	var/faction = tgui_input_list(src, "Choose faction fire support to enable.", "Faction", selectable_faction)
 	if(!faction)
 		return

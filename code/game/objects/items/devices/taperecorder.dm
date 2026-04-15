@@ -2,7 +2,7 @@
 	name = "tape recorder"
 	desc = "A device that can record dialogue using magnetic tapes. It automatically translates the content in playback."
 	icon = 'icons/obj/items/walkman.dmi'
-	icon_state = "taperecorder_idle"
+	icon_state = "taperecorder"
 	item_state = "analyzer"
 	w_class = SIZE_SMALL
 
@@ -136,7 +136,7 @@
 	return FALSE
 
 
-/obj/item/device/taperecorder/verb/ejectverb()
+/obj/item/device/taperecorder/proc/ejectverb()
 	set name = "Eject Tape"
 	set category = "Object"
 
@@ -149,16 +149,17 @@
 
 
 /obj/item/device/taperecorder/update_icon()
+	var/original_icon = initial(icon_state)
 	if(!mytape)
-		icon_state = "taperecorder_empty"
+		icon_state = "[original_icon]_empty"
 		return
 	if(recording)
-		icon_state = "taperecorder_recording"
+		icon_state = "[original_icon]_recording"
 		return
 	else if(playing)
-		icon_state = "taperecorder_playing"
+		icon_state = "[original_icon]_playing"
 		return
-	icon_state = "taperecorder_idle"
+	icon_state = "[original_icon]"
 	return
 
 
@@ -172,10 +173,7 @@
 		mytape.storedinfo += "\[[time2text(mytape.used_capacity,"mm:ss")]\] [mob_name] [verb], \"[italics ? "<i>" : null][message][italics ? "</i>" : null]\""
 
 
-/obj/item/device/taperecorder/verb/record()
-	set name = "Start Recording"
-	set category = "Object"
-
+/obj/item/device/taperecorder/proc/record()
 	if(!can_use(usr))
 		return
 	if(!mytape || mytape.unspooled)
@@ -209,10 +207,7 @@
 		playsound(src, 'sound/items/taperecorder/taperecorder_stop.ogg', 50, FALSE)
 
 
-/obj/item/device/taperecorder/verb/stop()
-	set name = "Stop"
-	set category = "Object"
-
+/obj/item/device/taperecorder/proc/stop()
 	if(!can_use(usr))
 		return
 
@@ -228,10 +223,7 @@
 	update_icon()
 	update_sound()
 
-/obj/item/device/taperecorder/verb/play()
-	set name = "Play Tape"
-	set category = "Object"
-
+/obj/item/device/taperecorder/proc/play()
 	if(!can_use(usr))
 		return
 	if(!mytape || mytape.unspooled)
@@ -307,9 +299,6 @@
 				eject(user)
 
 /obj/item/device/taperecorder/verb/print_transcript()
-	set name = "Print Transcript"
-	set category = "Object"
-
 	if(!length(mytape.storedinfo))
 		return
 	if(!can_use(usr))
@@ -340,6 +329,43 @@
 //empty tape recorders
 /obj/item/device/taperecorder/empty
 	starting_tape_type = null
+
+/obj/item/device/taperecorder/colony
+	name = "\improper Seegson C36 tape recorder"
+	desc = "A cheap plastic C-Series tape recorder, mass produced by Seegson for distribution all over civilised space. To save on money, they cannot print transcripts of their tapes. This one has clearly seen some wear and tear."
+	icon_state = "colonyrecorder"
+	canprint = FALSE
+
+/obj/item/device/taperecorder/colony/empty
+	starting_tape_type = null
+
+	/// list of typepaths for lore tapes
+	var/list/lore_tapes = list()
+
+
+/// do not use on maps
+/obj/item/device/taperecorder/colony/loadout
+	name = "\improper Seegson C36 tape recorder"
+	desc = "A cheap plastic C-Series tape recorder, mass produced by Seegson for distribution all over civilised space. To save on money, they cannot print transcripts of their tapes. You bought this one in a PX on Chinook before setting off."
+	starting_tape_type = /obj/item/tape/random/loadout
+	/// chance for it to spawn with no tape
+	var/spawn_empty_chance = 50
+	/// chance for it to spawn with a random LORE TAPE (if it does spawn with a tape) from the list below
+	var/spawn_lore_tape_chance = 20 // 10% chance
+
+	/// list of typepaths for lore tapes
+	var/list/lore_tapes = list()
+
+/obj/item/device/taperecorder/colony/loadout/Initialize(mapload)
+	if(prob(spawn_empty_chance))
+		desc += "\nLooks like the tape fell out somewhere. You'll have to find a new one."
+		starting_tape_type = null
+	else if(prob(spawn_lore_tape_chance) && lore_tapes.len)
+		var/lore_tape = pick(lore_tapes)
+		desc += "\nStrangely enough, the tape that came with it already seems partially used."
+		starting_tape_type = lore_tape
+	. = ..()
+
 
 /obj/item/tape
 	name = "tape"
@@ -411,8 +437,6 @@
 /obj/item/tape/Initialize(mapload)
 	. = ..()
 	initial_icon_state = icon_state //random tapes will set this after choosing their icon
-	if(prob(50))
-		tapeflip()
 	flipped_name = name
 	unflipped_name = name
 
@@ -498,12 +522,103 @@
 
 //Random color tapes
 /obj/item/tape/random
-	icon_state = "cassette_rainbow"
+	icon_state = "cassette_flip"
 
 /obj/item/tape/random/Initialize(mapload)
 	icon_state = "cassette_[pick(cassette_colors)]"
 	. = ..()
 
+/obj/item/tape/random/loadout
+	desc = "A small plastic tape. Jams often."
+	max_capacity = 10 MINUTES
+
 /obj/item/tape/regulation
 	name = "regulation tape"
 	icon_state = "cassette_regulation"
+
+
+
+/*
+// HOW TO MAKE A CUSTOM AUDIO LOG TAPE
+// for spawning on maps or putting in the loadout tape recorder
+// done by example
+// typepath here, make sure to make it a subtype of audio_log
+/obj/item/tape/audio_log/example
+// do name desc and icon state here
+// these are the lines that will be said on the tape. Put them in the provided format for speech, and you can do whatever you like with other sounds
+// remember that you can make the recorder say ANYTHING
+	storedinfo = list(
+		"\[00:03] Dana Summy says, \"Okay\"" ,
+		"\[00:05] Alaina Suni says, \"Sure\"",
+		"\[00:06] Dana Summy says, \"Yes\"",
+		"\[00:08] *gunshots*",
+	)
+// these are the timestamps of the above messages, put in the same order as you put the timestamps ideally
+// if you need two messages to play immediately after each other make their timestamps the same
+// these timestamps are in TICKS (1/10ths of a second)
+	timestamp = list(
+		30,
+		50,
+		60,
+		80,
+	)
+// how much of the tape has been used up
+// make this the biggest number on the timestamp list or 10 MINUTES if you don't want anything more to be recorded on the side.
+	used_capacity = 90
+// what the above tape produced when played in-game
+	Playback started.
+	[00:03] Dana Summy says, "Okay"
+	[00:05] Alaina Suni says, "Sure"
+	[00:06] Dana Summy says, "Yes"
+	[00:08] *gunshots*
+	End of recording.
+	Playback stopped.
+// have fun!
+*/
+
+/obj/item/tape/audio_log
+	name = "partially used tape" // RENAME!
+	desc = "A standard tape, made by the million in factories on Earth. This one has been partially used." // RENAME!
+	unacidable = TRUE // so that xenos can't delete the map lore >:(
+	flags_obj = NO_FLAGS // we don't want players fucking up the item
+	icon_state = "cassette_worstmap" // rename this to your icon state
+
+/obj/item/tape/random/lore
+	name = "dusty tape"
+	desc = "A dusty old tape, covered in cobwebs and dust."
+	unacidable = TRUE
+	flags_obj = NO_FLAGS
+
+/obj/item/tape/random/lore/one
+	storedinfo = list(
+		"\[00:05] *лёгкий шум помех, затем уверенный голос*",
+		"\[00:10] Eerie Voice says \"Добро пожаловать на объект добычи UNSC «Грейвлок-7»\"",
+		"\[00:15] Eerie Voice says \"Если ты это слышишь - значит, ты теперь часть колонии.\"",
+		"\[00:20] Eerie Voice says \"Здесь нет чужих. Здесь нет случайных людей.\"",
+		"\[00:30] Eerie Voice says \"Здесь - только семья.\"",
+		"\[00:35] Eerie Voice says \"Мы стоим на краю освоенного пространства\"",
+		"\[00:40] Eerie Voice says \"Добываем металл, на котором держится флот\"",
+		"\[00:45] Eerie Voice says \"Города...\"",
+		"\[00:50] Eerie Voice says \"Каждый болт, каждый корпус корабля - начинается здесь. С нас.\"",
+		"\[00:55] Eerie Voice says \"Работа тяжёлая. Воздух — не всегда чистый.\"",
+		"\[01:00] Eerie Voice says \"Но рядом с тобой - те, кто прикроет спину в шахте и поднимет тебя, если ты упал.\"",
+		"\[01:05] Eerie Voice says \"Помни: Мы не просто копаем породу - мы строим будущее человечества.\"",
+		"\[01:10] Eerie Voice says \"Держись своих. Выполняй норму. И возвращайся живым в жилой сектор.\"",
+		"\[01:15] Eerie Voice says \"Добро пожаловать домой, шахтёр.\"",
+	)
+	timestamp = list(
+		50,
+		100,
+		150,
+		200,
+		300,
+		350,
+		400,
+		450,
+		500,
+		550,
+		600,
+		650,
+		700,
+		750,
+	)

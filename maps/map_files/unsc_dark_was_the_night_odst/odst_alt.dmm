@@ -1,14 +1,161 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/prop/unsc_crate/corrugated/blue{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/obj/item/tool/warning_cone{
+	pixel_x = 6;
+	pixel_y = 18;
+	layer = 3
+	},
+/obj/structure/prop/unsc_crate/corrugated/green{
+	pixel_x = 0;
+	pixel_y = -2
+	},
+/obj/item/clothing/head/helmet/construction{
+	pixel_x = 1;
+	pixel_y = 5
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/canteen)
+"ab" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/largecrate/supply/ammo{
+	name = "materials crate";
+	fill_from_loc = 1
+	},
+/obj/item/stack/sheet/metal/large_stack,
+/obj/item/stack/sheet/plasteel{
+	amount = 40;
+	pixel_x = 0;
+	pixel_y = 2
+	},
+/obj/item/storage/pouch/construction/full_barbed_wire{
+	pixel_x = -2;
+	pixel_y = 5
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/armory)
+"ac" = (
+/obj/structure/reagent_dispensers/watertank{
+	pixel_x = 1;
+	pixel_y = 4
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo"
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/engineering)
 "ad" = (
 /obj/structure/barricade/handrail/type_nv{
 	dir = 8
 	},
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/canteen)
+"ae" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4;
+	pixel_x = 1;
+	pixel_y = 7
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/engineering)
+"af" = (
+/obj/structure/surface/table/reinforced/prison{
+	color = "#ffe6e6"
+	},
+/obj/item/device/flashlight/lamp{
+	pixel_x = 4;
+	pixel_y = 13
+	},
+/obj/item/paper/janitor{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/obj/item/reagent_container/spray/cleaner{
+	pixel_x = 8;
+	pixel_y = 3
+	},
+/turf/open/floor/strata/floor3,
+/area/dark_was_the_night/engineering)
+"ag" = (
+/obj/structure/window/framed/unsc,
+/obj/structure/machinery/door/poddoor/almayer/open{
+	dir = 8
+	},
+/turf/open/floor/corsat,
+/area/dark_was_the_night/engineering)
+"ah" = (
+/obj/structure/machinery/light/small{
+	dir = 8;
+	light_color = "#e7c0a4";
+	light_power = 0.8;
+	light_range = 4
+	},
+/turf/open/floor/strata/floor2,
+/area/dark_was_the_night/engineering)
+"ai" = (
+/turf/open/floor/strata/multi_tiles,
+/area/dark_was_the_night/engineering)
+"aj" = (
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/dark_was_the_night/engineering)
+"ak" = (
+/obj/structure/machinery/door/airlock/unsc{
+	name = "\improper Janitor Room"
+	},
+/turf/open/floor/corsat/marked,
+/area/dark_was_the_night/engineering)
+"al" = (
+/obj/effect/step_trigger/clone_cleaner,
+/turf/open/floor/strata/multi_tiles,
+/area/dark_was_the_night/engineering)
+"am" = (
+/obj/structure/closet/l3closet/janitor{
+	pixel_x = -8;
+	pixel_y = 1
+	},
+/obj/structure/closet/jcloset{
+	pixel_x = 9;
+	pixel_y = 1
+	},
+/turf/open/floor/strata/multi_tiles/southwest,
+/area/dark_was_the_night/engineering)
 "an" = (
 /obj/structure/machinery/door/airlock/unsc/prop,
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/pod_bay)
+"ao" = (
+/obj/structure/surface/rack{
+	color = "#ffe6e6";
+	layer = 2.79;
+	pixel_x = -1;
+	pixel_y = 21;
+	density = 0
+	},
+/obj/item/reagent_container/glass/bucket/janibucket{
+	pixel_x = -1;
+	pixel_y = 25
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/dark_was_the_night/engineering)
+"ap" = (
+/obj/structure/janitorialcart{
+	pixel_x = 1;
+	pixel_y = 12
+	},
+/obj/item/tool/mop{
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/turf/open/floor/plating/plating_catwalk/strata,
+/area/dark_was_the_night/engineering)
 "aw" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -124,6 +271,13 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
+/obj/structure/holohoop{
+	dir = 4;
+	id = "basketball";
+	side = "left";
+	pixel_x = -1;
+	pixel_y = 4
+	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/dorms)
 "bP" = (
@@ -144,6 +298,14 @@
 	pixel_y = 24;
 	id = "unsc_armory";
 	name = "Armory Shutters"
+	},
+/obj/item/device/taperecorder/colony/empty{
+	pixel_x = 3;
+	pixel_y = 6
+	},
+/obj/item/reagent_container/food/drinks/milk{
+	pixel_x = -10;
+	pixel_y = 8
 	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/briefing)
@@ -295,6 +457,10 @@
 /area/dark_was_the_night/cryo_hall)
 "dl" = (
 /obj/structure/machinery/photocopier,
+/obj/item/toy/beach_ball/holoball{
+	pixel_y = 9;
+	pixel_x = -1
+	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/dorms)
 "dq" = (
@@ -856,6 +1022,16 @@
 /obj/structure/machinery/camera/autoname/golden_arrow{
 	dir = 1
 	},
+/obj/structure/machinery/vending/coffee{
+	pixel_x = 4;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning";
+	dir = 8;
+	pixel_x = -1;
+	pixel_y = 0
+	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/canteen)
 "hS" = (
@@ -1228,13 +1404,6 @@
 /obj/item/weapon/gun/rifle/halo/br55,
 /turf/open/space/basic,
 /area/space)
-"lg" = (
-/obj/structure/prop/unsc_crate/corrugated/blue{
-	pixel_y = 3;
-	pixel_x = -4
-	},
-/turf/open/floor/strata/floor3,
-/area/dark_was_the_night/canteen)
 "lk" = (
 /turf/closed/shuttle{
 	dir = 1;
@@ -2562,6 +2731,10 @@
 	pixel_y = 11;
 	pixel_x = 1
 	},
+/obj/item/reagent_container/glass/rag{
+	pixel_x = 2;
+	pixel_y = -17
+	},
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/dorms)
 "xV" = (
@@ -2996,6 +3169,15 @@
 /obj/structure/machinery/light/small/red,
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
+	},
+/obj/structure/largecrate/random/mini/small_case/c{
+	pixel_x = -7;
+	pixel_y = -2
+	},
+/obj/item/reagent_container/food/drinks/coffee/marine{
+	pixel_x = -7;
+	pixel_y = 2;
+	layer = 3.11
 	},
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/dark_was_the_night/briefing)
@@ -3563,6 +3745,12 @@
 /turf/open/floor/strata/floor3,
 /area/dark_was_the_night/canteen)
 "JC" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 9
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 9
+	},
 /turf/open/floor/plating/plating_catwalk/strata,
 /area/dark_was_the_night/armory)
 "JE" = (
@@ -4487,7 +4675,7 @@
 /turf/open/floor/corsat/marked,
 /area/dark_was_the_night/briefing)
 "TO" = (
-/turf/open/floor/strata/floor2,
+/turf/open/floor/strata/multi_tiles/west,
 /area/dark_was_the_night/engineering)
 "TY" = (
 /obj/structure/machinery/door/airlock/unsc/glass{
@@ -6300,7 +6488,7 @@ Wy
 tT
 wo
 lE
-fh
+ab
 tT
 kH
 PC
@@ -8191,7 +8379,7 @@ RB
 Ex
 Ex
 Ex
-TD
+aa
 TD
 WF
 cT
@@ -8257,7 +8445,7 @@ EX
 HD
 Ex
 LY
-lg
+RO
 PH
 cr
 cr
@@ -8764,11 +8952,11 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
+FU
+FU
+FU
+FU
+FU
 fF
 vb
 fE
@@ -8831,11 +9019,11 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
+FU
+am
+ah
+ac
+FU
 fF
 vb
 hW
@@ -8898,11 +9086,11 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
+FU
+ao
+ai
+ae
+FU
 fF
 vb
 LF
@@ -8965,11 +9153,11 @@ fF
 fF
 fF
 fF
-fF
-fF
-fF
-fF
-fF
+FU
+ap
+aj
+af
+FU
 fF
 vb
 vb
@@ -9032,10 +9220,10 @@ fF
 fF
 fF
 fF
-fF
 FU
-wj
-dA
+FU
+ak
+ag
 FU
 fF
 fF
@@ -9302,7 +9490,7 @@ yq
 Fx
 Ph
 GZ
-lJ
+al
 TO
 vv
 Oh
