@@ -21,7 +21,16 @@
 /turf/open/floor/covenant/plating,
 /area/gamma_sector/closed_soft/oob_hab)
 "aaf" = (
-/obj/structure/surface/table/reinforced/black{
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79;
+	pixel_x = 0
+	},
+/obj/item/stock_parts/matter_bin/super{
+	pixel_x = -1;
+	pixel_y = 1;
+	name = "Covenant Data Bin";
+	desc = "Ого, похоже на какого-то рода носитель информации который использует Ковенант!";
 	color = "#7851A9"
 	},
 /turf/open/floor/covenant/plating,
@@ -33,9 +42,6 @@
 /obj/structure/prop/pred_flight{
 	dir = 8;
 	pixel_x = -16
-	},
-/obj/structure/surface/table/reinforced/black{
-	color = "#7851A9"
 	},
 /turf/open/floor/covenant/paneling/rotated,
 /area/gamma_sector/closed_soft/oob_hab)
@@ -91,6 +97,25 @@
 	},
 /turf/open/floor/covenant/plating,
 /area/gamma_sector/closed_soft/oob_hab)
+"aap" = (
+/obj/structure/surface/rack{
+	color = "#6b675e";
+	layer = 2.79;
+	pixel_x = 0
+	},
+/obj/item/stock_parts/subspace/crystal{
+	color = "#7851A9";
+	name = "Covenant Data Cube";
+	desc = "Ого, похоже на какого-то рода носитель информации который использует Ковенант!";
+	pixel_x = 3;
+	pixel_y = 6
+	},
+/turf/open/floor/covenant/plating,
+/area/gamma_sector/closed_soft/oob_hab)
+"aaq" = (
+/obj/structure/tunnel,
+/turf/open/floor/prison/floor_plate,
+/area/gamma_sector/unsc_base/west_wing)
 "aar" = (
 /obj/structure/prop/unsc_crate/standard/red{
 	pixel_x = 9;
@@ -98,6 +123,40 @@
 	},
 /turf/open/auto_turf/sand/layer1,
 /area/gamma_sector/open/shorline)
+"aas" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/blocker/invisible_wall/fog/insurrection,
+/turf/open/floor/prison/floor_plate,
+/area/gamma_sector/traxus_base/transfer_storage)
+"aat" = (
+/obj/structure/blocker/invisible_wall/fog/insurrection,
+/turf/open/floor/prison/floor_plate,
+/area/gamma_sector/traxus_base/transfer_storage)
+"aau" = (
+/obj/structure/blocker/invisible_wall/fog/insurrection,
+/turf/open/floor/strata/floor3,
+/area/gamma_sector/open/inner_region)
+"aav" = (
+/obj/structure/blocker/invisible_wall/fog/insurrection,
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/gamma_sector/open/inner_region)
+"aaw" = (
+/obj/structure/blocker/invisible_wall/fog/insurrection,
+/turf/open/floor/prison/floor_plate,
+/area/gamma_sector/traxus_base/transfer_primary)
+"aax" = (
+/obj/structure/blocker/invisible_wall/fog/insurrection,
+/turf/open/floor/prison/cell_stripe/east,
+/area/gamma_sector/traxus_base/transfer_primary)
+"aay" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/blocker/invisible_wall/fog/insurrection,
+/turf/open/floor/prison/floor_plate,
+/area/gamma_sector/traxus_base/transfer_primary)
 "aaz" = (
 /obj/structure/prop/unsc_crate/big{
 	pixel_x = 27;
@@ -114,10 +173,135 @@
 	},
 /turf/open/floor/prison/floor_plate,
 /area/gamma_sector/closed_soft/old_hab)
+"aaA" = (
+/obj/structure/surface/table/almayer,
+/obj/item/tape/random/lore/two,
+/turf/open/floor/prison/floor_plate,
+/area/gamma_sector/traxus_base/transfer_primary)
+"aaB" = (
+/obj/structure/tunnel,
+/turf/open/floor/prison/floor_plate,
+/area/gamma_sector/unsc_base/north_wing)
+"aaC" = (
+/obj/structure/machinery/light/small/red{
+	dir = 2
+	},
+/obj/structure/prop/unsc_crate/stack,
+/turf/open/floor/prison/darkbrownfull2,
+/area/gamma_sector/closed_hard/overheads)
+"aaD" = (
+/obj/structure/prop/unsc_crate/corrugated/blue{
+	pixel_x = -5;
+	pixel_y = 2
+	},
+/obj/item/folder/black_random{
+	pixel_x = -5;
+	pixel_y = 11
+	},
+/obj/item/ammo_magazine/m2c{
+	pixel_x = 15;
+	pixel_y = -5;
+	desc = "A box of 150 7.62 FMJ AP rounds for the M247 GPMG. Click the heavy machinegun while there's no ammo box loaded to reload the M247.";
+	name = "M247 Ammunition Box"
+	},
+/turf/open/floor/prison/darkbrown2/southwest,
+/area/gamma_sector/closed_hard/overheads)
+"aaE" = (
+/obj/item/pamphlet/skill/machinegunner{
+	pixel_x = 4;
+	pixel_y = 11
+	},
+/turf/open/floor/prison/darkbrown2,
+/area/gamma_sector/closed_hard/overheads)
+"aaF" = (
+/obj/item/ammo_magazine/m2c{
+	pixel_x = -6;
+	pixel_y = 14;
+	desc = "A box of 150 7.62 FMJ AP rounds for the M247 GPMG. Click the heavy machinegun while there's no ammo box loaded to reload the M247.";
+	name = "M247 Ammunition Box"
+	},
+/obj/item/ammo_magazine/m2c{
+	pixel_x = 6;
+	pixel_y = -5;
+	desc = "A box of 150 7.62 FMJ AP rounds for the M247 GPMG. Click the heavy machinegun while there's no ammo box loaded to reload the M247.";
+	name = "M247 Ammunition Box"
+	},
+/turf/open/floor/prison/darkbrown2/southeast,
+/area/gamma_sector/closed_hard/overheads)
+"aaG" = (
+/obj/structure/machinery/computer/arcade{
+	pixel_x = 0;
+	pixel_y = 18;
+	density = 0
+	},
+/obj/item/ammo_magazine/m2c{
+	pixel_x = -3;
+	pixel_y = -4;
+	desc = "A box of 150 7.62 FMJ AP rounds for the M247 GPMG. Click the heavy machinegun while there's no ammo box loaded to reload the M247.";
+	name = "M247 Ammunition Box"
+	},
+/turf/open/floor/prison/darkbrown2/northwest,
+/area/gamma_sector/closed_hard/overheads)
 "aaH" = (
 /obj/structure/pipes/standard/manifold/hidden/supply,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/gamma_sector/unsc_base/east_wing)
+"aaI" = (
+/obj/item/ammo_magazine/m2c{
+	pixel_x = 7;
+	pixel_y = 9;
+	desc = "A box of 150 7.62 FMJ AP rounds for the M247 GPMG. Click the heavy machinegun while there's no ammo box loaded to reload the M247.";
+	name = "M247 Ammunition Box"
+	},
+/obj/item/storage/belt/marine/m2c{
+	pixel_x = -9;
+	pixel_y = -1
+	},
+/turf/open/floor/prison/darkbrown2/north,
+/area/gamma_sector/closed_hard/overheads)
+"aaJ" = (
+/obj/structure/bed/bedroll{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 11
+	},
+/obj/structure/bed/bedroll{
+	pixel_y = -3;
+	dir = 1;
+	pixel_x = 0
+	},
+/obj/item/device/m2c_gun{
+	name = "\improper M247 GPMG";
+	desc = "An infantry-portable variant of the ubiquitous M247. This one appears to have been poorly-maintained, and will likely not perform as expected. <B> Click its sprite while behind it without holding anything to man it. Click-drag on NON-GRAB intent to disassemble the gun, GRAB INTENT to remove ammo magazines.</B>";
+	pixel_x = 2;
+	pixel_y = 5
+	},
+/turf/open/floor/prison/darkbrown2/northeast,
+/area/gamma_sector/closed_hard/overheads)
+"aaK" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/clothing/suit/marine/unsc/insurrection{
+	pixel_x = -3;
+	pixel_y = 0
+	},
+/obj/item/clothing/head/helmet/marine/unsc/insurrection{
+	pixel_x = 3;
+	pixel_y = 7
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/gamma_sector/closed_hard/overheads)
+"aaL" = (
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/explosive/grenade/high_explosive/m15/unsc{
+	pixel_x = 4;
+	pixel_y = 10
+	},
+/obj/item/weapon/gun/rifle/halo/vk78{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/gamma_sector/closed_hard/overheads)
 "aaM" = (
 /obj/structure/flora/bush/ausbushes/var3/fernybush,
 /turf/open/auto_turf/sand/layer1,
@@ -132,6 +316,83 @@
 	},
 /turf/open/auto_turf/sand/layer0,
 /area/gamma_sector/open/abandoned_area)
+"aaP" = (
+/obj/item/ammo_magazine/rifle/halo/vk78{
+	pixel_x = -7;
+	pixel_y = 8
+	},
+/obj/item/ammo_magazine/rifle/halo/vk78{
+	pixel_x = 6;
+	pixel_y = -4
+	},
+/turf/open/floor/prison/darkbrownfull2,
+/area/gamma_sector/closed_hard/overheads)
+"aaQ" = (
+/obj/structure/machinery/light/small/red{
+	dir = 2
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/gamma_sector/closed_hard/overheads)
+"aaR" = (
+/obj/structure/tunnel,
+/turf/open/floor/plating,
+/area/gamma_sector/closed_hard/overheads)
+"aaS" = (
+/obj/structure/barricade/razorwire{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/gamma_sector/closed_hard/overheads)
+"aaT" = (
+/obj/structure/barricade/table/prison{
+	dir = 8
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/gamma_sector/closed_hard/overheads)
+"aaU" = (
+/obj/structure/barricade/table/wood/gambling{
+	dir = 4
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/gamma_sector/closed_hard/overheads)
+"aaV" = (
+/obj/structure/barricade/razorwire{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/gamma_sector/closed_hard/overheads)
+"aaW" = (
+/obj/structure/prop/unsc_crate/standard/blue{
+	pixel_x = -5;
+	pixel_y = 7
+	},
+/obj/item/storage/toolbox/traxus{
+	pixel_x = -6;
+	pixel_y = 17
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/gamma_sector/closed_hard/overheads)
+"aaX" = (
+/obj/structure/barricade/sandbags/wired{
+	dir = 1
+	},
+/obj/item/reagent_container/food/drinks/coffeecup{
+	pixel_y = -8;
+	pixel_x = -9
+	},
+/turf/open/floor/prison/darkbrownfull2,
+/area/gamma_sector/closed_hard/overheads)
+"aaY" = (
+/obj/structure/gun_rack/halo/medkit{
+	pixel_y = 25;
+	pixel_x = 0
+	},
+/turf/open/floor/strata/multi_tiles/west,
+/area/gamma_sector/closed_hard/overheads)
+"aaZ" = (
+/obj/structure/machinery/deployable/barrier,
+/turf/open/floor/strata/multi_tiles/southeast,
+/area/gamma_sector/closed_hard/overheads)
 "abd" = (
 /obj/structure/surface/table/almayer,
 /obj/item/toy/plush/random_plushie,
@@ -8412,7 +8673,15 @@
 /area/gamma_sector/closed_soft/garage)
 "etu" = (
 /obj/structure/surface/table/almayer,
-/obj/item/folder/white,
+/obj/item/prop{
+	icon = 'icons/obj/items/paper.dmi';
+	icon_state = "paper_words";
+	pixel_x = 3;
+	pixel_y = 9;
+	name = "Договор";
+	desc = "Один из множества документов на этой колонии, но кажется этот чем-то отличается. Если прочитать внимательнее, то кажется это каким-то образом связано с директором этой колонии и какой-то неизвестной третьей стороной, которая интересовалась одной из веток в шахте этой колонии.";
+	color = "#7851A9"
+	},
 /turf/open/floor/prison/floor_plate,
 /area/gamma_sector/traxus_base/traxus_office)
 "etL" = (
@@ -9297,6 +9566,9 @@
 /turf/open/asphalt/tile,
 /area/gamma_sector/shuttles/drop5)
 "eWl" = (
+/obj/structure/barricade/metal{
+	dir = 1
+	},
 /turf/open/floor/prison/darkbrown2/southwest,
 /area/gamma_sector/closed_hard/overheads)
 "eWr" = (
@@ -10882,6 +11154,9 @@
 /obj/structure/ladder{
 	id = "ins_hideout";
 	height = -1
+	},
+/obj/structure/machinery/light{
+	dir = 1
 	},
 /turf/open/floor/prison/floor_plate,
 /area/gamma_sector/closed_hard/overheads)
@@ -25937,6 +26212,9 @@
 /turf/open/floor/prison/cell_stripe/west,
 /area/gamma_sector/unsc_base/armory)
 "nYl" = (
+/obj/structure/barricade/metal/plasteel{
+	dir = 1
+	},
 /turf/open/floor/prison/darkbrown2/southeast,
 /area/gamma_sector/closed_hard/overheads)
 "nYq" = (
@@ -36515,6 +36793,7 @@
 "tJF" = (
 /obj/structure/surface/table/almayer,
 /obj/item/folder/yellow,
+/obj/item/folder/white,
 /turf/open/floor/prison/bright_clean,
 /area/gamma_sector/traxus_base/traxus_office)
 "tKk" = (
@@ -40029,6 +40308,10 @@
 	light_power = 0.75
 	},
 /obj/structure/prop/unsc_crate/stack,
+/obj/item/tape/random/lore/one{
+	pixel_x = 0;
+	pixel_y = 9
+	},
 /turf/open/floor/prison/floor_plate,
 /area/gamma_sector/highway/traxus_highway_maint)
 "vDu" = (
@@ -42693,6 +42976,13 @@
 /turf/open/floor/prison/floor_plate,
 /area/gamma_sector/traxus_base/east_plaza)
 "wYZ" = (
+/obj/structure/reagent_dispensers/watertank/unsc{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/obj/structure/machinery/light/small/red{
+	dir = 2
+	},
 /turf/open/floor/strata/multi_tiles/west,
 /area/gamma_sector/closed_hard/overheads)
 "wZd" = (
@@ -47369,7 +47659,7 @@ lkZ
 lkZ
 qWe
 qWe
-aaf
+aap
 aah
 aaf
 qWe
@@ -62559,7 +62849,7 @@ vfD
 myY
 eiJ
 eiJ
-eiJ
+aaq
 myY
 myY
 eiJ
@@ -70880,7 +71170,7 @@ iJE
 lfJ
 eOe
 dgp
-dgp
+aaB
 qLM
 dgp
 dgp
@@ -106266,7 +106556,7 @@ vLy
 vLy
 cbh
 pFo
-wCB
+aaA
 hZW
 hZW
 hZW
@@ -106282,7 +106572,7 @@ oBD
 oBD
 vwE
 pRG
-sCv
+aas
 oBD
 rBt
 oBD
@@ -106544,7 +106834,7 @@ sCv
 oBD
 tur
 sCv
-oBD
+aat
 orm
 vbe
 orm
@@ -106806,7 +107096,7 @@ orm
 sCv
 btJ
 sCv
-oBD
+aat
 orm
 vbe
 orm
@@ -107068,7 +107358,7 @@ ijd
 sCv
 vwE
 fsM
-sCv
+aas
 sCv
 rBt
 oBD
@@ -108254,7 +108544,7 @@ qIr
 qIr
 qIr
 qIr
-cQE
+aaR
 cQE
 eZO
 qIr
@@ -108516,7 +108806,7 @@ qIr
 qIr
 eZO
 cQE
-cQE
+aaS
 cQE
 eZO
 qIr
@@ -109039,8 +109329,8 @@ qIr
 eZO
 eZO
 eZO
-wYZ
-wYZ
+aaW
+aaT
 wYZ
 eZO
 eZO
@@ -109300,14 +109590,14 @@ qIr
 qIr
 eZO
 xZd
-gAH
+aaZ
 nYl
 gtv
 dJX
-gAH
+aaK
 eZO
-gtv
-gtv
+aaG
+aaD
 eZO
 eZO
 qIr
@@ -109423,7 +109713,7 @@ myw
 dLU
 wlG
 hey
-lgs
+aau
 aGB
 aGB
 qlB
@@ -109562,15 +109852,15 @@ qIr
 qIr
 eZO
 fKE
-gAH
+aaZ
+aaX
 gtv
-gtv
-gtv
+aaP
 gAH
 pdB
-gtv
-gtv
-gtv
+aaI
+aaE
+aaC
 eZO
 qIr
 qIr
@@ -109685,7 +109975,7 @@ bHY
 dhK
 cYc
 hoH
-hoH
+aav
 aGB
 aGB
 hLt
@@ -109824,14 +110114,14 @@ qIr
 qIr
 eZO
 xZd
-gAH
+aaZ
 eWl
 gtv
 jao
-gAH
+aaL
 eZO
-gtv
-gtv
+aaJ
+aaF
 eZO
 eZO
 qIr
@@ -109947,7 +110237,7 @@ weu
 dhK
 mIJ
 hoH
-hoH
+aav
 aGB
 aGB
 hLt
@@ -110087,9 +110377,9 @@ qIr
 eZO
 eZO
 eZO
-wYZ
-wYZ
-wYZ
+aaY
+aaU
+aaQ
 eZO
 eZO
 eZO
@@ -110209,7 +110499,7 @@ weu
 iCa
 mIJ
 hoH
-hoH
+aav
 aGB
 aGB
 eSV
@@ -110471,7 +110761,7 @@ bHY
 iCa
 mIJ
 hoH
-hoH
+aav
 aGB
 aGB
 aGB
@@ -110612,7 +110902,7 @@ qIr
 qIr
 eZO
 eZO
-cQE
+aaV
 cQE
 eZO
 qIr
@@ -110733,7 +111023,7 @@ bHY
 weu
 wlG
 qCe
-lgs
+aau
 aGB
 aGB
 aGB
@@ -110995,7 +111285,7 @@ tjR
 weu
 wlG
 ylq
-lgs
+aau
 aGB
 aGB
 psb
@@ -111135,7 +111425,7 @@ qIr
 qIr
 qIr
 qIr
-cQE
+aaR
 cQE
 qIr
 eZO
@@ -112555,10 +112845,10 @@ hZW
 hZW
 hZW
 hZW
-cbh
-gUC
-gUC
-vLy
+aay
+aax
+aax
+aaw
 wlG
 ijX
 ijX

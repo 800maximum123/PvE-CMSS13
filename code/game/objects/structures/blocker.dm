@@ -160,3 +160,7 @@ GLOBAL_VAR_INIT(vehicle_blockers, TRUE)
 /obj/structure/blocker/invisible_wall/fog/unsc
 	name = "dense fog"
 	desc = "Кажется жуки до сих пор могут быть где-то поблизости, лучше не рисковать."
+
+/obj/structure/blocker/invisible_wall/fog/insurrection
+	name = "dense fog"
+	desc = "Кажется жуки до сих пор могут быть где-то поблизости, лучше не рисковать."
