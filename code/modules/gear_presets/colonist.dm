@@ -1062,7 +1062,7 @@
 /datum/equipment_preset/colonist/security/guard
 	name = "US Colonial Guard"
 	flags = EQUIPMENT_PRESET_EXTRA
-	faction = FACTION_UACG
+	faction = FACTION_COLONIST
 	faction_group = FACTION_LIST_UA_COLONY
 	assignment = "Colonial Militiaman"
 	role_comm_title = "UACG"

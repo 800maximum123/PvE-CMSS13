@@ -1703,6 +1703,16 @@
 		"This is for you...!",
 	)
 
+/datum/human_ai_faction/xeno_cultist/corrupted
+	faction = FACTION_XENOMORPH_CORRPUTED
+
+/datum/human_ai_faction/malfunctioning_synth
+	faction = FACTION_MALF_SYNTH
+	friendly_factions = list(
+		FACTION_COLONIST,
+	)
+ */
+
 /datum/human_ai_faction/zombie
 	faction = FACTION_ZOMBIE
 	enter_combat_lines = list(
@@ -1894,17 +1904,6 @@
 		"*pain",
 		"*scream",
 	)
-
-
-/datum/human_ai_faction/xeno_cultist/corrupted
-	faction = FACTION_XENOMORPH_CORRPUTED
-
-/datum/human_ai_faction/malfunctioning_synth
-	faction = FACTION_MALF_SYNTH
-	friendly_factions = list(
-		FACTION_COLONIST,
-	)
- */
 
 //Halo
 /datum/human_ai_faction/urf
