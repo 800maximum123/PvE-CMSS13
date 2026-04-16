@@ -145,3 +145,18 @@ GLOBAL_VAR_INIT(vehicle_blockers, TRUE)
 	name = "directional blocker"
 	icon_state = "invisible_wall_directional"
 	flags_atom = ON_BORDER
+
+/obj/structure/blocker/invisible_wall/fog
+	name = "dense fog"
+	desc = "It looks way too dangerous to traverse. Best wait until it has cleared up."
+	icon = 'icons/effects/effects.dmi'
+	icon_state = "smoke"
+	opacity = TRUE
+
+/obj/structure/blocker/invisible_wall/fog/New()
+	..()
+	icon_state = initial(icon_state)
+
+/obj/structure/blocker/invisible_wall/fog/unsc
+	name = "dense fog"
+	desc = "Кажется жуки до сих пор могут быть где-то поблизости, лучше не рисковать."
