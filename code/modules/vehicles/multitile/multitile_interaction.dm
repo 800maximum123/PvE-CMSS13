@@ -442,8 +442,7 @@
 
 	var/obj/item/hardpoint/hardpoint = get_mob_hp(source)
 	if(!hardpoint)
-		if(!silent_hardpoint_warning)
-			to_chat(source, SPAN_WARNING("Please select an active hardpoint first."))
+		to_chat(source, SPAN_WARNING("Please select an active hardpoint first."))
 		return
 
 	hardpoint.start_fire(source, object, location, control, params)
