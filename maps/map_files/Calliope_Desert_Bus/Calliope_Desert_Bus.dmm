@@ -239,6 +239,10 @@
 	},
 /turf/open/floor/asteroidfloor,
 /area/calliope_route/highway/far_south)
+"ahB" = (
+/obj/effect/vehicle_spawner/warthog/machinegun,
+/turf/open/asphalt,
+/area/calliope_route/highway/north)
 "ahG" = (
 /obj/structure/bed/chair{
 	dir = 1;
@@ -4159,6 +4163,10 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/calliope_route/highway/far_south)
+"cRu" = (
+/obj/structure/surface/rack/holorack,
+/turf/open/gm/dirt,
+/area/calliope_route/highway/north)
 "cRW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade/handrail/wire{
@@ -5035,10 +5043,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/upp_wall/grey,
 /area/new_irvine/indoors)
-"dwq" = (
-/obj/effect/vehicle_spawner/warthog/machinegun,
-/turf/open/asphalt,
-/area/calliope_route/highway/north)
 "dwF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
@@ -7309,6 +7313,13 @@
 	},
 /turf/open/gm/river/no_overlay_lighted,
 /area/calliope_route/highway/north)
+"fcM" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/storage/belt/utility/full{
+	pixel_y = 16
+	},
+/turf/open/gm/dirt,
+/area/calliope_route/highway/north)
 "fcX" = (
 /obj/structure/barricade/handrail/wire{
 	dir = 8
@@ -7861,6 +7872,10 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/new_irvine/outdoors)
+"ftJ" = (
+/obj/effect/vehicle_spawner/tank/desert/fixed/minigun,
+/turf/open/gm/dirt/desert1,
+/area/calliope_route/highway/north)
 "ftL" = (
 /turf/open/asphalt,
 /area/calliope_route/highway/close_south)
@@ -9420,10 +9435,6 @@
 	},
 /turf/open/asphalt/cement/cement1,
 /area/new_irvine/outdoors)
-"guN" = (
-/obj/structure/surface/rack/holorack,
-/turf/open/gm/dirt,
-/area/calliope_route/highway/north)
 "guU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cargo_container/horizontal/blue/top{
@@ -11160,10 +11171,6 @@
 /obj/structure/machinery/autolathe,
 /turf/open/floor/prison/floor_plate,
 /area/calliope_route/exterior_buildings/buildings)
-"hEQ" = (
-/obj/effect/vehicle_spawner/tank/desert/fixed,
-/turf/open/gm/dirt/desert1,
-/area/calliope_route/highway/north)
 "hFI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/bush/ausbushes/ppflowers,
@@ -11791,25 +11798,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/asphalt/cement,
 /area/new_irvine/outdoors)
-"iba" = (
-/obj/structure/surface/rack/holorack,
-/obj/item/ammo_magazine/hardpoint/vulcan{
-	pixel_y = 16
-	},
-/obj/item/ammo_magazine/hardpoint/vulcan{
-	pixel_y = -1
-	},
-/obj/item/ammo_magazine/hardpoint/vulcan{
-	pixel_y = 16
-	},
-/obj/item/ammo_magazine/hardpoint/vulcan{
-	pixel_y = -1
-	},
-/obj/item/ammo_magazine/hardpoint/vulcan{
-	pixel_y = 16
-	},
-/turf/open/gm/dirt,
-/area/calliope_route/highway/north)
 "ibm" = (
 /obj/structure/largecrate/random/barrel/true_random,
 /turf/open/floor/plating/warnplate/west,
@@ -21977,28 +21965,6 @@
 	},
 /turf/open/asphalt/tile,
 /area/new_irvine/outdoors)
-"oVU" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/item/ammo_magazine/hardpoint/m56_cupola{
-	pixel_y = 16
-	},
-/obj/item/ammo_magazine/hardpoint/m56_cupola{
-	pixel_y = 7
-	},
-/obj/item/ammo_magazine/hardpoint/m56_cupola{
-	pixel_y = -3
-	},
-/obj/item/ammo_magazine/hardpoint/m56_cupola{
-	pixel_y = 16
-	},
-/obj/item/ammo_magazine/hardpoint/m56_cupola{
-	pixel_y = 7
-	},
-/obj/item/ammo_magazine/hardpoint/m56_cupola{
-	pixel_y = -3
-	},
-/turf/open/gm/dirt,
-/area/calliope_route/highway/north)
 "oWd" = (
 /obj/structure/prop/almayer/whiteboard/clear{
 	density = 0;
@@ -22408,13 +22374,6 @@
 	},
 /turf/open/floor/carpet,
 /area/new_irvine/indoors)
-"pmc" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/item/storage/belt/utility/full{
-	pixel_y = 16
-	},
-/turf/open/gm/dirt,
-/area/calliope_route/highway/north)
 "pmd" = (
 /obj/structure/machinery/light/small{
 	light_color = "#C02526";
@@ -27607,6 +27566,17 @@
 /obj/structure/machinery/colony_floodlight,
 /turf/open/floor/asteroidwarning/southeast,
 /area/calliope_route/highway/north)
+"sWI" = (
+/obj/structure/surface/table/reinforced/prison,
+/obj/item/ammo_magazine/hardpoint/ltaaap_minigun{
+	pixel_y = 8
+	},
+/obj/item/ammo_magazine/hardpoint/ltaaap_minigun,
+/obj/item/ammo_magazine/hardpoint/ltaaap_minigun{
+	pixel_y = -10
+	},
+/turf/open/gm/dirt,
+/area/calliope_route/highway/north)
 "sWJ" = (
 /obj/structure/platform_decoration{
 	dir = 1
@@ -30029,6 +29999,25 @@
 "uHm" = (
 /turf/closed/wall/rock,
 /area/calliope_route/tunnel/generator_maints)
+"uHs" = (
+/obj/structure/surface/rack/holorack,
+/obj/item/ammo_magazine/hardpoint/vulcan{
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/hardpoint/vulcan{
+	pixel_y = -1
+	},
+/obj/item/ammo_magazine/hardpoint/vulcan{
+	pixel_y = 16
+	},
+/obj/item/ammo_magazine/hardpoint/vulcan{
+	pixel_y = -1
+	},
+/obj/item/ammo_magazine/hardpoint/vulcan{
+	pixel_y = 16
+	},
+/turf/open/gm/dirt,
+/area/calliope_route/highway/north)
 "uHv" = (
 /obj/structure/desertdam/decals/road_edge{
 	pixel_x = -19;
@@ -30517,21 +30506,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer_hull,
 /area/new_irvine/outdoors)
-"vak" = (
-/obj/item/ammo_magazine/hardpoint/ltb_cannon{
-	pixel_y = 5;
-	pixel_x = 12
-	},
-/obj/item/ammo_magazine/hardpoint/ltb_cannon{
-	pixel_y = -8;
-	pixel_x = 8
-	},
-/obj/item/ammo_magazine/hardpoint/ltb_cannon{
-	pixel_y = -4;
-	pixel_x = -14
-	},
-/turf/open/gm/dirt,
-/area/calliope_route/highway/north)
 "vaA" = (
 /obj/structure/prop/dam/truck/damaged,
 /turf/open/gm/dirt,
@@ -34686,6 +34660,13 @@
 	},
 /turf/open/asphalt/tile,
 /area/new_irvine/outdoors)
+"xSP" = (
+/obj/item/ammo_magazine/hardpoint/primary_flamer{
+	pixel_y = 15;
+	pixel_x = 6
+	},
+/turf/open/gm/dirt,
+/area/calliope_route/highway/north)
 "xSX" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal2";
@@ -319412,11 +319393,11 @@ nkq
 nkq
 nkq
 nkq
-dwq
+ahB
 nkq
 nkq
 nkq
-dwq
+ahB
 nkq
 nkq
 nkq
@@ -324297,11 +324278,11 @@ nkq
 nkq
 nkq
 nkq
-dwq
+ahB
 nkq
 nkq
 nkq
-dwq
+ahB
 nkq
 nkq
 nkq
@@ -327223,8 +327204,8 @@ wdl
 wdl
 axL
 vRf
-vak
 vRf
+xSP
 vRf
 vRf
 vRf
@@ -328200,10 +328181,10 @@ wdl
 wdl
 sWo
 vRf
-guN
-oVU
-pmc
-iba
+cRu
+sWI
+fcM
+uHs
 vRf
 vRf
 vRf
@@ -330156,7 +330137,7 @@ vRf
 vRf
 vRf
 vRf
-hEQ
+ftJ
 vRf
 vRf
 vRf
