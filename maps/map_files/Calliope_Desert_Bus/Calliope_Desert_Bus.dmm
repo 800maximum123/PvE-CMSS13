@@ -239,10 +239,6 @@
 	},
 /turf/open/floor/asteroidfloor,
 /area/calliope_route/highway/far_south)
-"ahB" = (
-/obj/effect/vehicle_spawner/warthog/machinegun,
-/turf/open/asphalt,
-/area/calliope_route/highway/north)
 "ahG" = (
 /obj/structure/bed/chair{
 	dir = 1;
@@ -4163,10 +4159,6 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/calliope_route/highway/far_south)
-"cRu" = (
-/obj/structure/surface/rack/holorack,
-/turf/open/gm/dirt,
-/area/calliope_route/highway/north)
 "cRW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade/handrail/wire{
@@ -7313,13 +7305,6 @@
 	},
 /turf/open/gm/river/no_overlay_lighted,
 /area/calliope_route/highway/north)
-"fcM" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/item/storage/belt/utility/full{
-	pixel_y = 16
-	},
-/turf/open/gm/dirt,
-/area/calliope_route/highway/north)
 "fcX" = (
 /obj/structure/barricade/handrail/wire{
 	dir = 8
@@ -7872,10 +7857,6 @@
 	},
 /turf/open/auto_turf/sand_white/layer1,
 /area/new_irvine/outdoors)
-"ftJ" = (
-/obj/effect/vehicle_spawner/tank/desert/fixed/minigun,
-/turf/open/gm/dirt/desert1,
-/area/calliope_route/highway/north)
 "ftL" = (
 /turf/open/asphalt,
 /area/calliope_route/highway/close_south)
@@ -27566,17 +27547,6 @@
 /obj/structure/machinery/colony_floodlight,
 /turf/open/floor/asteroidwarning/southeast,
 /area/calliope_route/highway/north)
-"sWI" = (
-/obj/structure/surface/table/reinforced/prison,
-/obj/item/ammo_magazine/hardpoint/ltaaap_minigun{
-	pixel_y = 8
-	},
-/obj/item/ammo_magazine/hardpoint/ltaaap_minigun,
-/obj/item/ammo_magazine/hardpoint/ltaaap_minigun{
-	pixel_y = -10
-	},
-/turf/open/gm/dirt,
-/area/calliope_route/highway/north)
 "sWJ" = (
 /obj/structure/platform_decoration{
 	dir = 1
@@ -29999,25 +29969,6 @@
 "uHm" = (
 /turf/closed/wall/rock,
 /area/calliope_route/tunnel/generator_maints)
-"uHs" = (
-/obj/structure/surface/rack/holorack,
-/obj/item/ammo_magazine/hardpoint/vulcan{
-	pixel_y = 16
-	},
-/obj/item/ammo_magazine/hardpoint/vulcan{
-	pixel_y = -1
-	},
-/obj/item/ammo_magazine/hardpoint/vulcan{
-	pixel_y = 16
-	},
-/obj/item/ammo_magazine/hardpoint/vulcan{
-	pixel_y = -1
-	},
-/obj/item/ammo_magazine/hardpoint/vulcan{
-	pixel_y = 16
-	},
-/turf/open/gm/dirt,
-/area/calliope_route/highway/north)
 "uHv" = (
 /obj/structure/desertdam/decals/road_edge{
 	pixel_x = -19;
@@ -34660,13 +34611,6 @@
 	},
 /turf/open/asphalt/tile,
 /area/new_irvine/outdoors)
-"xSP" = (
-/obj/item/ammo_magazine/hardpoint/primary_flamer{
-	pixel_y = 15;
-	pixel_x = 6
-	},
-/turf/open/gm/dirt,
-/area/calliope_route/highway/north)
 "xSX" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal2";
@@ -319393,11 +319337,11 @@ nkq
 nkq
 nkq
 nkq
-ahB
 nkq
 nkq
 nkq
-ahB
+nkq
+nkq
 nkq
 nkq
 nkq
@@ -324278,11 +324222,11 @@ nkq
 nkq
 nkq
 nkq
-ahB
 nkq
 nkq
 nkq
-ahB
+nkq
+nkq
 nkq
 nkq
 nkq
@@ -327205,11 +327149,11 @@ wdl
 axL
 vRf
 vRf
-xSP
 vRf
 vRf
-vRf
-vRf
+fPZ
+fPZ
+fPZ
 fPZ
 fPZ
 fPZ
@@ -328181,10 +328125,10 @@ wdl
 wdl
 sWo
 vRf
-cRu
-sWI
-fcM
-uHs
+vRf
+vRf
+vRf
+vRf
 vRf
 vRf
 vRf
@@ -330137,7 +330081,7 @@ vRf
 vRf
 vRf
 vRf
-ftJ
+pmv
 vRf
 vRf
 vRf
