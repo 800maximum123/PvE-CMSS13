@@ -113,7 +113,9 @@
 /turf/open/floor/covenant/plating,
 /area/gamma_sector/closed_soft/oob_hab)
 "aaq" = (
-/obj/structure/tunnel,
+/obj/structure/tunnel{
+	color = "#c9ae74"
+	},
 /turf/open/floor/prison/floor_plate,
 /area/gamma_sector/unsc_base/west_wing)
 "aar" = (
@@ -179,7 +181,9 @@
 /turf/open/floor/prison/floor_plate,
 /area/gamma_sector/traxus_base/transfer_primary)
 "aaB" = (
-/obj/structure/tunnel,
+/obj/structure/tunnel{
+	color = "#c9ae74"
+	},
 /turf/open/floor/prison/floor_plate,
 /area/gamma_sector/unsc_base/north_wing)
 "aaC" = (
@@ -15609,6 +15613,14 @@
 /area/gamma_sector/traxus_base/garage)
 "ikO" = (
 /obj/structure/machinery/prop/almayer/CICmap/table/horizontal/segment/five,
+/obj/item/prop{
+	icon_state = "photo";
+	pixel_x = 12;
+	pixel_y = 3;
+	name = "Снимок квадрата Е-6";
+	desc = "Фото неизвестных вам челноков, с подпиью квадрат Е-6. Если присмотреться, то что-то они больно похожи на какие-то корабли Ковенанта, но может кажется?";
+	color = "#7851A9"
+	},
 /turf/open/floor/almayer/mono,
 /area/gamma_sector/unsc_base/command)
 "ikX" = (
@@ -26506,6 +26518,10 @@
 /area/gamma_sector/closed_hard/facility_caves)
 "oia" = (
 /obj/structure/machinery/prop/almayer/CICmap/table/horizontal/segment/one,
+/obj/item/tape/random/lore/three{
+	pixel_x = 16;
+	pixel_y = 15
+	},
 /turf/open/floor/almayer/mono,
 /area/gamma_sector/unsc_base/command)
 "oid" = (
