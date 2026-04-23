@@ -415,6 +415,18 @@ If that changes, may need a slight refactor.
 	//climb_time = 30 SECONDS
 	//climb_sound = 'sound/machines/long_ladder.ogg'
 
+/obj/structure/ladder/tunnel
+	name = "a large tunnel"
+	desc = "A big and scary tunnel that probably leads somewhere."
+	icon = 'icons/mob/xenos/effects.dmi'
+	icon_state = "hole"
+
+	climb_time = 1 SECONDS
+	climb_sound = 'sound/effects/burrowoff.ogg'
+
+/obj/structure/ladder/tunnel/update_icon()
+	return
+
 #undef LADDER_LOCKED
 #undef LADDER_UNLOCKED
 #undef LADDER_OPEN
