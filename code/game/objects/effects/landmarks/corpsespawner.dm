@@ -52,3 +52,53 @@
 /obj/effect/landmark/corpsespawner/forecon_spotter
 	name = "USCM Reconnaissance Spotter"
 	equip_path = /datum/equipment_preset/corpse/forecon_spotter
+
+// HALO
+
+/obj/effect/landmark/corpsespawner/halo_police
+	name = "UEG Police Officer (Gearless, Pistol)"
+	equip_path = /datum/equipment_preset/corpse/police/officer
+
+/obj/effect/landmark/corpsespawner/halo_police_geared
+	name = "UEG Police Officer (Geared, Pistol)"
+	equip_path = /datum/equipment_preset/corpse/police/officer/geared
+
+/obj/effect/landmark/corpsespawner/halo_police_geared_smg
+	name = "UEG Police Officer (Geared, SMG)"
+	equip_path = /datum/equipment_preset/corpse/police/officer/geared/smg
+
+/obj/effect/landmark/corpsespawner/halo_police_enforcer
+	name = "UEG Police Officer (Geared, Shotgun Enforcer)"
+	equip_path = /datum/equipment_preset/corpse/police/officer/geared/enforcer
+
+/obj/effect/landmark/corpsespawner/halo_police_sergeant
+	name = "UEG Police Sergeant (Gearless, Pistol)"
+	equip_path = /datum/equipment_preset/corpse/police/officer/sergeant
+
+/obj/effect/landmark/corpsespawner/halo_police_sergeant_smg
+	name = "UEG Police Sergeant (Geared, SMG)"
+	equip_path = /datum/equipment_preset/corpse/police/officer/sergeant/geared
+
+/obj/effect/landmark/corpsespawner/halo_police_sergeant_smg
+	name = "UEG Police Chief (Gearless, Pistol)"
+	equip_path = /datum/equipment_preset/corpse/police/officer/chief
+
+/obj/effect/landmark/corpsespawner/halo_unsc_rifleman
+	name = "UNSC Squad Rifleman"
+	equip_path = /datum/equipment_preset/corpse/unsc/pfc/equipped
+
+/obj/effect/landmark/corpsespawner/halo_colonist_miner
+	name = "US Civilian Colonist, Blue-Collar (Miner)"
+	equip_path = /datum/equipment_preset/corpse/colonist/miner
+
+/obj/effect/landmark/corpsespawner/halo_colonist_construction
+	name = "US Civilian Colonist, Blue-Collar (Construction)"
+	equip_path = /datum/equipment_preset/corpse/colonist/construction
+
+/obj/effect/landmark/corpsespawner/halo_colonist_cook
+	name = "US Civilian Colonist, Blue-Collar (Cook)"
+	equip_path = /datum/equipment_preset/corpse/colonist/cook
+
+/obj/effect/landmark/corpsespawner/halo_colonist_cargo
+	name = "US Civilian Logistics Worker"
+	equip_path = /datum/equipment_preset/corpse/colonist/cargo
